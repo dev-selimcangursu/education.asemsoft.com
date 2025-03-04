@@ -17,18 +17,12 @@
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.header {
-  width: 100%;
-  padding: 10px 0;
-}
-
 .header .header-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
+  padding: 0px 20px 0px 20px;
 }
 
 .header-top-logo img {
@@ -54,7 +48,7 @@
 }
 
 .header-top-search #search-input:focus {
-  border-color: #007bff;
+  border-color: rgba(40, 0, 40, 0.941);
 }
 #mobile-menu-icon {
   display: none;
@@ -71,7 +65,7 @@
 
 .header-top-menu ul {
   display: flex;
-  gap: 20px;
+  gap: 5px;
   list-style: none;
   margin: 0;
 }
@@ -89,7 +83,7 @@
 }
 
 .header-top-menu ul li a:hover {
-  color: #007bff;
+  color: rgba(40, 0, 40, 0.941);
 }
 
 .header-top-menu ul li a i {
@@ -248,7 +242,22 @@
 #music_main:hover {
   display: flex;
 }
+.my-account-wrapper {
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: whitesmoke;
+}
 
+.mobile-sidebar {
+  display: none;
+}
+/* Header:Son */
+
+/* Responsive Tasarım */
 @media (max-width: 1200px) {
   .header-bottom ul li:nth-child(n + 10) {
     display: none;
@@ -264,7 +273,6 @@
     display: none;
   }
 }
-
 @media (max-width: 800px) {
   .header-bottom {
     display: none !important;
@@ -284,9 +292,20 @@
   }
   #mobile-menu-icon {
     display: block;
+    position: relative;
   }
 }
 @media (max-width: 768px) {
+  .mobile-sidebar {
+    position: absolute;
+    display: block;
+    width: 265px;
+    background-color: white;
+    top: 0px;
+    left: 0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 100vh;
+  }
   .header-bottom {
     display: none !important;
   }
@@ -308,6 +327,16 @@
   }
 }
 @media (max-width: 576px) {
+  .mobile-sidebar {
+    display: block;
+    position: absolute;
+    width: 265px;
+    background-color: white;
+    top: 0px;
+    left: 0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 100vh;
+  }
   .header-bottom {
     display: none !important;
   }
