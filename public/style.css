@@ -6,6 +6,8 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* Header::Başlangıç */
 .header {
   width: 100%;
   height: auto;
@@ -14,52 +16,97 @@
   font-size: 14px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-.header .header-alert-wrapper {
+
+.header {
   width: 100%;
-  height: 60px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #5d93a7af;
-  padding: 20px;
+  padding: 10px 0;
 }
 
 .header .header-top {
-  width: 100%;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-top-logo img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.header-top-search {
+  flex-grow: 1;
+  margin-left: 20px;
+}
+
+.header-top-search #search-input {
+  width: 100%;
+  height: 40px;
+  padding-left: 15px;
+  border-radius: 25px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.header-top-search #search-input:focus {
+  border-color: #007bff;
+}
+#mobile-menu-icon {
+  display: none;
+  font-size: 30px;
   padding: 20px;
+  cursor: pointer;
+}
+.header-top-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: auto;
+}
+
+.header-top-menu ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
 }
 
 .header-top-menu ul li {
-  display: flex;
-  list-style: none;
-  gap: 20px;
+  display: inline-block;
+  margin-left: 10px;
 }
+
 .header-top-menu ul li a {
   text-decoration: none;
   color: #333;
+  font-size: 13px;
+  transition: color 0.3s ease;
+}
+
+.header-top-menu ul li a:hover {
+  color: #007bff;
+}
+
+.header-top-menu ul li a i {
+  font-size: 15px;
 }
 
 .header .header-bottom {
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   padding: 10px;
+  position: relative;
   border-top: 1px solid rgba(128, 128, 128, 0.419);
 }
 
-.header .header-top-search #search-input {
-  width: 700px;
-  height: 50px;
-  border-radius: 20px;
-  background-color: white;
-  border: 1px solid gray;
-  padding-left: 10px;
-}
 .header .header-bottom ul {
   width: 100%;
   display: flex;
@@ -68,7 +115,6 @@
   align-items: center;
   list-style: none;
   gap: 20px;
-  position: relative;
 }
 .header .header-bottom ul li a {
   color: black;
@@ -76,7 +122,7 @@
 }
 
 .header .header-bottom ul li a:hover {
-  color: purple;
+  color: rgba(40, 0, 40, 0.941);
 }
 
 .header-bottom-main {
@@ -87,49 +133,198 @@
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 30px;
   left: 0px;
 }
 .header-bottom-main ul li a {
   color: white !important;
   font-size: 12px;
 }
+.header-bottom-main ul li a:hover {
+  color: purple !important;
+  font-size: 12px;
+}
+
+.phone-menu-right {
+  display: none;
+  padding: 15px;
+}
+.phone-menu-right ul {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  list-style: none;
+  gap: 10px;
+}
+.phone-menu-right ul li a {
+  color: black;
+}
 .header-bottom #software_development_main {
   display: none;
 }
-.header-bottom #software_development:hover 
-+ #software_development_main{
+
+#software_development_main,
+#software_development:hover + #software_development_main,
+#software_development_main:hover {
   display: flex;
 }
 
 .header-bottom #business_main {
   display: none;
 }
-.header-bottom #business:hover + #business_main{
+#business_main,
+#business:hover + #business_main,
+#business_main:hover {
   display: flex;
 }
 
 .header-bottom #finance_accounting_main {
   display: none;
 }
+#finance_accounting,
+#finance_accounting:hover + #finance_accounting_main,
+#finance_accounting_main:hover {
+  display: flex;
+}
+
 .header-bottom #bt_software_main {
   display: none;
 }
+#bt_software,
+#bt_software:hover + #bt_software_main,
+#bt_software_main:hover {
+  display: flex;
+}
+
 .header-bottom #office_productivity_main {
   display: none;
 }
+#office_productivity,
+#office_productivity:hover + #office_productivity_main,
+#office_productivity_main:hover {
+  display: flex;
+}
+
 .header-bottom #personal_development_main {
   display: none;
 }
+#personal_development,
+#personal_development:hover + #personal_development_main,
+#personal_development_main:hover {
+  display: flex;
+}
+
 .header-bottom #design_main {
   display: none;
 }
+#design,
+#design:hover + #design_main,
+#design_main:hover {
+  display: flex;
+}
+
 .header-bottom #marketing_main {
   display: none;
 }
+#marketing,
+#marketing:hover + #marketing_main,
+#marketing_main:hover {
+  display: flex;
+}
+
 .header-bottom #healt_fitness_main {
   display: none;
 }
+#healt_fitness,
+#healt_fitness:hover + #healt_fitness_main,
+#healt_fitness_main:hover {
+  display: flex;
+}
+
 .header-bottom #music_main {
   display: none;
+}
+#music,
+#music:hover + #music_main,
+#music_main:hover {
+  display: flex;
+}
+
+@media (max-width: 1200px) {
+  .header-bottom ul li:nth-child(n + 10) {
+    display: none;
+  }
+}
+@media (max-width: 1100px) {
+  .header-bottom ul li:nth-child(n + 9) {
+    display: none;
+  }
+}
+@media (max-width: 900px) {
+  .header-bottom ul li:nth-child(n + 7) {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .header-bottom {
+    display: none !important;
+  }
+  .header-top-search {
+    display: none;
+  }
+  .header-top-menu {
+    display: none !important;
+  }
+  .header-top-logo {
+    width: 100%;
+    text-align: center;
+  }
+  .phone-menu-right {
+    display: block !important;
+  }
+  #mobile-menu-icon {
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  .header-bottom {
+    display: none !important;
+  }
+  .header-top-search {
+    display: none;
+  }
+  .header-top-menu {
+    display: none !important;
+  }
+  .header-top-logo {
+    width: 100%;
+    text-align: center;
+  }
+  .phone-menu-right {
+    display: block !important;
+  }
+  #mobile-menu-icon {
+    display: block;
+  }
+}
+@media (max-width: 576px) {
+  .header-bottom {
+    display: none !important;
+  }
+  .header-top-search {
+    display: none;
+  }
+  .header-top-menu {
+    display: none !important;
+  }
+  .header-top-logo {
+    width: 100%;
+    text-align: center;
+  }
+  #mobile-menu-icon {
+    display: block;
+  }
+  .phone-menu-right {
+    display: block !important;
+  }
 }
