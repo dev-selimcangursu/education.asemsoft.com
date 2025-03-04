@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.header .header-alert-wrapper {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #5d93a7af;
+  padding: 20px;
+}
+
+.header .header-top {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.header-top-menu ul li {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.header-top-menu ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.header .header-bottom {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-top: 1px solid rgba(128, 128, 128, 0.419);
+}
+
+.header .header-top-search #search-input {
+  width: 700px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid gray;
+  padding-left: 10px;
+}
+.header .header-bottom ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+  position: relative;
+}
+.header .header-bottom ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.header .header-bottom ul li a:hover {
+  color: purple;
+}
+
+.header-bottom-main {
+  width: 100%;
+  background-color: black;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+}
+.header-bottom-main ul li a {
+  color: white !important;
+  font-size: 12px;
+}
+.header-bottom #software_development_main {
+  display: none;
+  flex-direction: row;
+}
+.header-bottom #software_development:hover 
++ #software_development_main{
+  display: flex;
+  flex-direction: row;
+}
+
+.header-bottom #business_main {
+  display: none;
+  flex-direction: row;
+}
+
+.header-bottom #business:hover + {
+  display: none;
+  flex-direction: row;
+}
+.header-bottom #finance_accounting_main {
+  display: none;
+  flex-direction: row;
+}
+.header-bottom #bt_software_main {
+  display: none;
+  flex-direction: row;
+}
+.header-bottom #office_productivity_main {
+  display: none;
+  flex-direction: row;
+}
+.header-bottom #personal_development_main {
+  display: none;
+  flex-direction: row;
+}
+.header-bottom #design_main {
+  display: none;
+  flex-direction: row;
+}
+.header-bottom #marketing_main {
+  display: none;
+  flex-direction: row;
+}
+.header-bottom #healt_fitness_main {
+  display: none;
+  flex-direction: row;
+}
+.header-bottom #music_main {
+  display: none;
+  flex-direction: row;
+}
