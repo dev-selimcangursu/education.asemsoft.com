@@ -82,6 +82,7 @@
 .header-bottom-main {
   width: 100%;
   background-color: black;
+  flex-direction: row;
   padding: 10px;
   justify-content: center;
   align-items: center;
@@ -95,52 +96,40 @@
 }
 .header-bottom #software_development_main {
   display: none;
-  flex-direction: row;
 }
 .header-bottom #software_development:hover 
 + #software_development_main{
   display: flex;
-  flex-direction: row;
 }
 
 .header-bottom #business_main {
   display: none;
-  flex-direction: row;
+}
+.header-bottom #business:hover + #business_main{
+  display: flex;
 }
 
-.header-bottom #business:hover + {
-  display: none;
-  flex-direction: row;
-}
 .header-bottom #finance_accounting_main {
   display: none;
-  flex-direction: row;
 }
 .header-bottom #bt_software_main {
   display: none;
-  flex-direction: row;
 }
 .header-bottom #office_productivity_main {
   display: none;
-  flex-direction: row;
 }
 .header-bottom #personal_development_main {
   display: none;
-  flex-direction: row;
 }
 .header-bottom #design_main {
   display: none;
-  flex-direction: row;
 }
 .header-bottom #marketing_main {
   display: none;
-  flex-direction: row;
 }
 .header-bottom #healt_fitness_main {
   display: none;
-  flex-direction: row;
 }
 .header-bottom #music_main {
   display: none;
-  flex-direction: row;
 }
