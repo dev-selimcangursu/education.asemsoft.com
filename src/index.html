@@ -20,72 +20,62 @@
     <header class="header" id="header">
       <div class="header-top">
         <a id="mobile-menu-icon"><i class="bi bi-list"></i></a>
-
         <div class="mobile-sidebar">
           <div class="my-account-wrapper">
-            <div
-              style="
-                width: 60px;
-                height: 60px;
-                border: 1px solid black;
-                text-align: center;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                background-color: black;
-                border-radius: 100%;
-                color: white;
-              "
-              class="account-profile"
-            >
-              SG
-            </div>
+            <div class="account-profile">SG</div>
             <div class="account-main">
-              <h4 style="font-weight: bold">Hoşgeldin</h4>
+              <h4>Hoşgeldin</h4>
               <h4>Selimcan Gürsu</h4>
-              <p style="font-size: 12px; color: rgba(128, 128, 128, 0.991)">
-                Tekrardan Hoşgeldiniz!
-              </p>
+              <p class="account-main-pr">Tekrardan Hoşgeldiniz!</p>
             </div>
-            <a style="font-size: 24px; color: black" href=""
+            <a
+              id="close-sidebar-button"
+              style="font-size: 24px; color: black; cursor: pointer"
               ><i class="bi bi-x"></i
             ></a>
           </div>
-          <div
-            style="width: 100% !important; text-align: center; padding: 15px"
-          >
-            <a style="font-size: 14px; text-decoration: none" href=""
-              >Eğitmen Görünümüne Geçiş Yap</a
-            >
+          <div class="teacher-student-change-area">
+            <a href="">Eğitmen Görünümüne Geçiş Yap</a>
           </div>
           <hr />
-          <div
-            style="
-              padding: 15px;
-              display: flex;
-              flex-direction: column;
-              gap: 10px;
-            "
-          >
+          <div class="my_lesson_area">
             <label style="color: rgb(108, 107, 107)">Öğrenin</label>
-            <a
-              style="font-size: 14px; color: black; text-decoration: none"
-              href=""
-              >Öğrenim İçeriğim</a
-            >
+            <a href="">Öğrenim İçeriğim</a>
           </div>
           <hr />
+          <div class="sidebar-certificate-wrapper">
+            <a class="certificate-text" href="">Sertifika Hazırlığı</a>
+            <a href=""><i class="bi bi-arrow-right"></i> </a>
+          </div>
+          <hr />
+          <div class="sidebar-populer-categories">
+            <label style="color: rgb(108, 107, 107)">En Popüler</label>
+            <a href="">Web Geliştirme</a>
+            <a href="">Mobil Yazılım Geliştirme</a>
+            <a href="">Oyun Geliştirme</a>
+            <a href="">Girişimcilik</a>
+            <a href="">İş Anatiliği ve Zekası</a>
+            <a href="">Finans</a>
+            <a href="">BT Sertifikası</a>
+            <a href="">Kişisel Gelişim</a>
+            <a href="">Grafik Tasarım</a>
+            <a href="">Dijital Pazarlama</a>
+            <a href="">Tüm Kategoriler</a>
+          </div>
+          <hr />
+          <div class="sidebar-orders-categories">
+            <label style="color: rgb(108, 107, 107)">Asem Academynin Sunduğu Diğer Hizmetler</label>
+            <a href="">Asem Business</a>
+            <a href="">Uygulamayı Edinin</a>
+            <a href="">Arkadaşlarınızı Davet Edin</a>
+            <a href="">Yardım ve Destek</a>
+          </div>
         </div>
-
         <div class="header-top-logo">
           <img src="../assets/image/asem academy-Photoroom.png" alt="logo" />
         </div>
         <div class="header-top-search">
-          <input
-            id="search-input"
-            placeholder="Ne Öğrenmek İstersiniz ?"
-            type="text"
-          />
+          <input id="search-input" placeholder="Ne Öğrenmek İstersiniz ?" type="text"/>
         </div>
         <div class="header-top-menu">
           <ul>
@@ -120,7 +110,6 @@
           </ul>
         </div>
       </div>
-
       <div class="header-bottom">
         <ul>
           <li>
