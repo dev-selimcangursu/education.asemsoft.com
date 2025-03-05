@@ -237,6 +237,39 @@
   background-color: whitesmoke;
 }
 /* Header:Son */
+/* Home:Slider:Başlangıç */
+#home-slider-wrapper {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.slides {
+  width: 300%;
+  height: 400px;
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+.slider {
+  width: 33.33%;
+  flex-shrink: 0;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.slides-button-group {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  font-size: 24px;
+  cursor: pointer;
+}
+
 /* Mobile Sidebar:Başlangıç */
 .mobile-sidebar {
   display: none;
