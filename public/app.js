@@ -46,3 +46,36 @@ backImageButton.addEventListener('click',function(e){
    slides.style.transform = `translateX(${currentIndex*33.33}%)`
 })
 
+//Trainings Slider
+
+let nextTrainingButton =document.getElementById('nextTrainingButton');
+let backTrainingButton =document.getElementById('backTrainingButton');
+let totalTrainingSlider = document.querySelectorAll('.training__slider').length
+let trainingIndex = 0
+let trainings__slider__area = document.querySelector('.trainings__slider__area');
+
+
+nextTrainingButton.addEventListener('click',function(e){
+  e.preventDefault();
+  trainingIndex++
+
+  if(trainingIndex >= totalTrainingSlider)
+  {
+    trainingIndex=0;
+  }
+
+  trainings__slider__area.style.transform = `translateX(-${trainingIndex*14.28}%)`
+
+})
+
+backTrainingButton.addEventListener('click',function(e){
+  e.preventDefault();
+  trainingIndex--
+  if(trainingIndex < 0) 
+  {
+    trainingIndex = totalTrainingSlider - 1; 
+  }
+
+  trainings__slider__area.style.transform = `translateX(-${trainingIndex * 14.28}%)`
+})
+
