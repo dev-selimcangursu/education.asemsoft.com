@@ -332,6 +332,7 @@ img {
   position: absolute;
   display: block;
   width: 265px;
+  z-index: 1000;
   background-color: white;
   top: 0px;
   left: 0px;
