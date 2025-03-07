@@ -452,6 +452,73 @@ img {
   border: 1px solid purple;
   cursor: pointer;
 }
+
+#my__job__search__wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background: white;
+  border-radius: 12px;
+  gap: 30px;
+}
+
+.my__job__image {
+  flex: 1;
+  max-width: 50%;
+}
+
+.my__job__image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.my__job__main {
+  flex: 1;
+  max-width: 50%;
+}
+
+.my__job__main h3 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.my__job__main small {
+  font-size: 16px;
+  color: #555;
+  display: block;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Buton Tasarımı */
+.my__job__main button {
+  background: purple;
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+
+.my__job__main button:hover {
+  background: #00264f;
+  box-shadow: 0px 4px 8px rgba(0, 91, 187, 0.3);
+}
+
+
+
+
 .slider__icon {
   width: 120px;
   height: 120px;
@@ -586,5 +653,10 @@ img {
   .training__card{
     width: 100%;
     height: auto;
+  }
+  #my__job__search__wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
   }
 }
