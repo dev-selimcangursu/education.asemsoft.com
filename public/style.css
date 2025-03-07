@@ -6,6 +6,7 @@
   font-weight: 400;
   font-style: normal;
 }
+
 /* Header::Başlangıç */
 .header {
   width: 100%;
@@ -15,6 +16,7 @@
   font-size: 14px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+
 .header .header-top {
   display: flex;
   justify-content: space-between;
@@ -22,6 +24,7 @@
   width: 100%;
   padding: 0px 20px 0px 20px;
 }
+
 .header-top-logo img {
   width: 100px;
   height: 100px;
@@ -32,6 +35,7 @@
   flex-grow: 1;
   margin-left: 20px;
 }
+
 .header-top-search #search-input {
   width: 100%;
   height: 40px;
@@ -42,43 +46,52 @@
   outline: none;
   transition: border-color 0.3s ease;
 }
+
 .header-top-search #search-input:focus {
   border-color: rgba(40, 0, 40, 0.941);
 }
+
 #mobile-menu-icon {
   display: none;
   font-size: 30px;
   padding: 20px;
   cursor: pointer;
 }
+
 .header-top-menu {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   width: auto;
 }
+
 .header-top-menu ul {
   display: flex;
   gap: 5px;
   list-style: none;
   margin: 0;
 }
+
 .header-top-menu ul li {
   display: inline-block;
   margin-left: 10px;
 }
+
 .header-top-menu ul li a {
   text-decoration: none;
   color: #333;
   font-size: 13px;
   transition: color 0.3s ease;
 }
+
 .header-top-menu ul li a:hover {
   color: rgba(40, 0, 40, 0.941);
 }
+
 .header-top-menu ul li a i {
   font-size: 15px;
 }
+
 .header .header-bottom {
   width: 100%;
   display: flex;
@@ -89,6 +102,7 @@
   position: relative;
   border-top: 1px solid rgba(128, 128, 128, 0.419);
 }
+
 .header .header-bottom ul {
   width: 100%;
   display: flex;
@@ -98,13 +112,16 @@
   list-style: none;
   gap: 20px;
 }
+
 .header .header-bottom ul li a {
   color: black;
   text-decoration: none;
 }
+
 .header .header-bottom ul li a:hover {
   color: rgba(40, 0, 40, 0.941);
 }
+
 .header-bottom-main {
   width: 100%;
   background-color: black;
@@ -115,18 +132,22 @@
   position: absolute;
   left: 0px;
 }
+
 .header-bottom-main ul li a {
   color: white !important;
   font-size: 12px;
 }
+
 .header-bottom-main ul li a:hover {
-  color: purple !important;
+  color:#00264f !important;
   font-size: 12px;
 }
+
 .phone-menu-right {
   display: none;
   padding: 15px;
 }
+
 .phone-menu-right ul {
   display: flex;
   text-decoration: none;
@@ -134,15 +155,17 @@
   list-style: none;
   gap: 10px;
 }
+
 .phone-menu-right ul li a {
   color: black;
 }
+
 .header-bottom #software_development_main {
   display: none;
 }
 
 #software_development_main,
-#software_development:hover + #software_development_main,
+#software_development:hover+#software_development_main,
 #software_development_main:hover {
   display: flex;
 }
@@ -150,8 +173,9 @@
 .header-bottom #business_main {
   display: none;
 }
+
 #business_main,
-#business:hover + #business_main,
+#business:hover+#business_main,
 #business_main:hover {
   display: flex;
 }
@@ -159,8 +183,9 @@
 .header-bottom #finance_accounting_main {
   display: none;
 }
+
 #finance_accounting,
-#finance_accounting:hover + #finance_accounting_main,
+#finance_accounting:hover+#finance_accounting_main,
 #finance_accounting_main:hover {
   display: flex;
 }
@@ -168,8 +193,9 @@
 .header-bottom #bt_software_main {
   display: none;
 }
+
 #bt_software,
-#bt_software:hover + #bt_software_main,
+#bt_software:hover+#bt_software_main,
 #bt_software_main:hover {
   display: flex;
 }
@@ -177,8 +203,9 @@
 .header-bottom #office_productivity_main {
   display: none;
 }
+
 #office_productivity,
-#office_productivity:hover + #office_productivity_main,
+#office_productivity:hover+#office_productivity_main,
 #office_productivity_main:hover {
   display: flex;
 }
@@ -186,8 +213,9 @@
 .header-bottom #personal_development_main {
   display: none;
 }
+
 #personal_development,
-#personal_development:hover + #personal_development_main,
+#personal_development:hover+#personal_development_main,
 #personal_development_main:hover {
   display: flex;
 }
@@ -195,8 +223,9 @@
 .header-bottom #design_main {
   display: none;
 }
+
 #design,
-#design:hover + #design_main,
+#design:hover+#design_main,
 #design_main:hover {
   display: flex;
 }
@@ -204,8 +233,9 @@
 .header-bottom #marketing_main {
   display: none;
 }
+
 #marketing,
-#marketing:hover + #marketing_main,
+#marketing:hover+#marketing_main,
 #marketing_main:hover {
   display: flex;
 }
@@ -213,8 +243,9 @@
 .header-bottom #healt_fitness_main {
   display: none;
 }
+
 #healt_fitness,
-#healt_fitness:hover + #healt_fitness_main,
+#healt_fitness:hover+#healt_fitness_main,
 #healt_fitness_main:hover {
   display: flex;
 }
@@ -222,11 +253,13 @@
 .header-bottom #music_main {
   display: none;
 }
+
 #music,
-#music:hover + #music_main,
+#music:hover+#music_main,
 #music_main:hover {
   display: flex;
 }
+
 .my-account-wrapper {
   padding: 15px;
   width: 100%;
@@ -236,7 +269,9 @@
   align-items: center;
   background-color: whitesmoke;
 }
+
 /* Header:Son */
+
 /* Home:Slider:Başlangıç */
 #home-slider-wrapper {
   width: 100%;
@@ -244,20 +279,24 @@
   position: relative;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
 .slides {
   width: 300%;
   height: 400px;
   display: flex;
   transition: transform 0.5s ease-in-out;
 }
+
 .slider {
   width: 33.33%;
   flex-shrink: 0;
 }
+
 img {
   width: 100%;
   height: auto;
 }
+
 .slides-button-group {
   width: 100%;
   height: auto;
@@ -270,19 +309,24 @@ img {
   cursor: pointer;
 }
 
+/* Home:Slider:Son */
+
 /* Mobile Sidebar:Başlangıç */
 .mobile-sidebar {
   display: none;
 }
+
 .mobile-sidebar a {
   font-size: 14px;
   color: black;
   text-decoration: none;
 }
+
 .mobile-sidebar a:hover {
-  color: purple;
+  color:#00264f;
   font-weight: bolder;
 }
+
 .mobile-sidebar .my-account-wrapper .account-profile {
   width: 60px;
   height: 60px;
@@ -295,20 +339,24 @@ img {
   border-radius: 100%;
   color: white;
 }
+
 .mobile-sidebar .my-account-wrapper .account-main .account-main-pr {
   font-size: 12px;
   color: rgba(128, 128, 128, 0.991);
 }
+
 .mobile-sidebar .teacher-student-change-area {
   text-align: center;
   padding: 15px;
 }
+
 .mobile-sidebar .my_lesson_area {
   padding: 15px;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
+
 .mobile-sidebar .sidebar-certificate-wrapper {
   display: flex;
   flex-direction: row;
@@ -316,18 +364,21 @@ img {
   align-items: center;
   padding: 15px;
 }
+
 .mobile-sidebar .sidebar-populer-categories {
   display: flex;
   flex-direction: column;
   padding: 15px;
   gap: 10px;
 }
+
 .mobile-sidebar .sidebar-orders-categories {
   display: flex;
   flex-direction: column;
   padding: 15px;
   gap: 10px;
 }
+
 .active {
   position: absolute;
   display: block;
@@ -339,6 +390,7 @@ img {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   height: 130vh;
 }
+
 /* Mobile Sidebar:Son */
 
 /* Trainings Slider::Başlangıç */
@@ -350,14 +402,15 @@ img {
   overflow: hidden;
 }
 
-.trainings__slider__area {
+#trainings__slider .trainings__slider__area {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
-.training__slider {
+
+#trainings__slider .training__slider {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -374,25 +427,29 @@ img {
   font-size: 26px;
   text-align: center;
 }
-.training__menu {
+
+#training__summary .training__menu {
   margin-top: 15px !important;
   width: 100%;
   margin: auto;
   display: flex;
   justify-content: center;
 }
-.training__menu ul {
+
+#training__summary .training__menu ul {
   display: flex;
   flex-direction: row;
   gap: 25px;
   list-style: none;
 }
-.training__menu ul li a {
+
+#training__summary .training__menu ul li a {
   color: #33333395;
   cursor: pointer;
   text-decoration: none;
 }
-.training__card_area {
+
+#training__summary .best__seller {
   margin-top: 40px;
   width: 100%;
   display: flex;
@@ -401,7 +458,8 @@ img {
   align-items: center;
   gap: 20px;
 }
-.academic__card__area {
+
+#training__summary .software__card {
   margin-top: 40px;
   width: 100%;
   display: none;
@@ -410,7 +468,8 @@ img {
   align-items: center;
   gap: 20px;
 }
-.children__card__area {
+
+#training__summary .company__card {
   margin-top: 40px;
   width: 100%;
   display: none;
@@ -419,7 +478,8 @@ img {
   align-items: center;
   gap: 20px;
 }
-.business__card__area {
+
+#training__summary .finance__card {
   margin-top: 40px;
   width: 100%;
   display: none;
@@ -428,9 +488,10 @@ img {
   align-items: center;
   gap: 20px;
 }
-.training__card {
-  width: 300px;
-  height: 350px;
+
+#training__summary .training__card {
+  width: 335px;
+  height: 460px;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border: 1px solid rgba(128, 128, 128, 0.368);
@@ -440,19 +501,46 @@ img {
   flex-direction: column;
   justify-content: space-between;
 }
-.training__card__body {
+
+#training__summary .training__card__body {
   width: 100%;
   display: flex;
   flex-direction: column;
 }
-.training__card__body button {
-  background-color: purple;
+
+#training__summary button {
+  background-color:#00264f;
   color: whitesmoke;
   height: 30px;
-  border: 1px solid purple;
+  border: 1px solid #00264f;
   cursor: pointer;
 }
 
+#training__summary button:hover {
+  background: #3B4F72;
+  border-color: #3B4F72;
+  box-shadow: 0px 4px 8px rgba(0, 91, 187, 0.3);
+}
+
+.slider__icon {
+  width: 120px;
+  height: 120px;
+  border: 4px solid #00264f;
+  border-radius: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.slider__icon img {
+  width: 75% !important;
+}
+
+/* Trainings Slider::Son */
+
+/* MyJobSearchTest:Başlangıç */
 #my__job__search__wrapper {
   width: 100%;
   max-width: 1200px;
@@ -467,30 +555,30 @@ img {
   gap: 30px;
 }
 
-.my__job__image {
+#my__job__search__wrapper .my__job__image {
   flex: 1;
   max-width: 50%;
 }
 
-.my__job__image img {
+#my__job__search__wrapper .my__job__image img {
   width: 100%;
   height: auto;
   border-radius: 8px;
 }
 
-.my__job__main {
+#my__job__search__wrapper .my__job__main {
   flex: 1;
   max-width: 50%;
 }
 
-.my__job__main h3 {
+#my__job__search__wrapper .my__job__main h3 {
   font-size: 28px;
   color: #333;
   margin-bottom: 10px;
   font-weight: 700;
 }
 
-.my__job__main small {
+#my__job__search__wrapper .my__job__main small {
   font-size: 16px;
   color: #555;
   display: block;
@@ -498,9 +586,8 @@ img {
   margin-bottom: 20px;
 }
 
-/* Buton Tasarımı */
-.my__job__main button {
-  background: purple;
+#my__job__search__wrapper .my__job__main button {
+  background: #00264f;
   color: #fff;
   padding: 12px 24px;
   font-size: 16px;
@@ -511,12 +598,13 @@ img {
   font-weight: 600;
 }
 
-.my__job__main button:hover {
+#my__job__search__wrapper .my__job__main button:hover {
   background: #00264f;
   box-shadow: 0px 4px 8px rgba(0, 91, 187, 0.3);
 }
+/* MyJobSearchTest:Son  */
 
-
+/* OurPrivilegesWrapper:Başlangıç */
 #our__privileges__wrapper {
   width: 100%;
   padding: 40px;
@@ -569,7 +657,7 @@ img {
 
 .privileges__area:hover {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-  border-color: purple;
+  border-color: #00264f;
 }
 
 .privileges__image img {
@@ -597,23 +685,290 @@ img {
   line-height: 1.5;
 }
 
+/* OurPrivilegesWrapper:Son */
 
-
-
-.slider__icon {
-  width: 120px;
-  height: 120px;
-  border: 4px solid purple;
-  border-radius: 100%;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+/* FormContainer:Başlangıç */
+.form-container {
+  width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  padding: 20px;
+}
+
+.form-container .form-wrapper {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container .input-group select {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+  height: 50px;
+}
+
+.form-container .image-area {
+  flex: 1;
+  background: #ddd;
+}
+
+.form-container .image-area img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.form-container .form-area {
+  flex: 1;
+  padding: 30px;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.form-container .form-area h2 {
+  text-align: center;
+}
+
+.form-container .input__group_area {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+  margin-top: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-container .form-area small {
+  text-align: center;
+}
+
+.form-container .form-area button {
+  width: 100%;
+  background-color: #00264f;
+  color: whitesmoke;
+  border: none;
+  height: 35px;
+}
+
+.form-container .input-group {
   margin-bottom: 10px;
 }
-.slider__icon img {
-  width: 75% !important;
+
+.form-container .input-group label {
+  display: block;
+  margin-bottom: 3px;
 }
+
+.form-container .input-group input,
+.input-group textarea {
+  width: 100%;
+  padding: 6px;
+  height: 50px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+/* FormContainer:Son */
+/* TrainingListWrapper:Başlangıç */
+.training__list__wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.training__list {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.training__list__wrapper .training__card {
+  width: 335px;
+  height: 460px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 1px solid rgba(128, 128, 128, 0.368);
+  padding: 25px;
+  background-color: rgba(245, 245, 245, 0.628);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.training__list__wrapper .training__card__body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.training__list__wrapper button {
+  background-color: #00264f;
+  color: whitesmoke;
+  height: 30px;
+  border: 1px solid #00264f;
+  cursor: pointer;
+}
+
+.training__list__wrapper button:hover {
+  background: #00264f;
+  border-color: #00264f;
+  box-shadow: 0px 4px 8px rgba(0, 91, 187, 0.3);
+}
+
+/* TrainingListWrapper:Son */
+/* Blog:Başlangıç */
+.blog {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.blog__main h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.blog__main small {
+  display: block;
+  font-size: 1rem;
+  color: #666;
+  margin-top: 10px;
+}
+
+.blog__main button {
+  background-color: #00264f;
+  color: whitesmoke;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.blog__card__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.blog .training__card {
+  width: 300px;
+  height: 460px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 1px solid rgba(128, 128, 128, 0.368);
+  padding: 25px;
+  background-color: rgba(245, 245, 245, 0.628);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.blog .training__card__body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog .training__card__body button {
+  background-color: #00264f;
+  color: whitesmoke;
+  height: 30px;
+  border: 1px solid #00264f;
+  cursor: pointer;
+}
+
+.blog .training__card__body button:hover {
+  background: #00264f;
+  border-color: #00264f;
+  box-shadow: 0px 4px 8px rgba(0, 91, 187, 0.3);
+}
+
+.blog .blog__main button:hover {
+  background: #00264f;
+  border-color: #00264f;
+  box-shadow: 0px 4px 8px rgba(0, 91, 187, 0.3);
+}
+
+/* Blog:Son */
+
+/* Footer */
+footer {
+  background: whitesmoke;
+  color: black;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 15px;
+  min-width: 250px;
+}
+
+.footer-section h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section ul,
+.footer-section a {
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+  list-style: none;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+}
+
+.social a {
+  color: white;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.newsletter input {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+}
+
+.newsletter button {
+  background: #00264f;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Footer::Son*/
 
 /* Responsive Tasarım */
 @media (min-width: 1200px) {
@@ -621,129 +976,799 @@ img {
     display: none !important;
   }
 }
+
 @media (min-width: 1100px) and (max-width: 1200px) {
   .header-bottom ul li:nth-child(n + 10) {
     display: none;
   }
+
   .mobile-sidebar {
     display: none !important;
   }
+  .trainings__slider__area{
+    width: 100%;
+    display: grid !important;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+  }
 }
+
 @media (min-width: 900px) and (max-width: 1100px) {
   .header-bottom ul li:nth-child(n + 9) {
     display: none;
   }
+
   .mobile-sidebar {
     display: none !important;
   }
-  .training__card_area{
+
+  .trainings__slider__area{
+    width: 100%;
+    display: grid !important;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+  }
+  .best__selling {
     display: grid;
-    grid-template-columns: repeat(3,1fr);    
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .blog {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+  }
+
+  .blog .blog__main {
+    width: 100%;
+    text-align: center;
+  }
+
+  .blog__card__list {
+    margin-top: 10px;
+    width: 100% !important;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .blog__card__list .training__card {
+    margin-top: 10px;
+    height: auto;
+    width: 100% !important;
+  }
+
+  #training__summary .best__seller {
+    margin-top: 40px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #training__summary .software__card {
+    margin-top: 40px;
+    width: 100%;
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #training__summary .company__card {
+    margin-top: 40px;
+    width: 100%;
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #training__summary .training__card {
+    width: 100% !important;
+    height: 460px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 1px solid rgba(128, 128, 128, 0.368);
+    padding: 25px;
+    background-color: rgba(245, 245, 245, 0.628);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #training__summary .training__menu {
+    display: none;
+  }
+
+  .training__list__wrapper .training__list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+    justify-content: space-between;
+  }
+
+  .training__list__wrapper .training__card {
+    width: 100% !important;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 1px solid rgba(128, 128, 128, 0.368);
+    padding: 25px;
+    background-color: rgba(245, 245, 245, 0.628);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 }
+
 @media (min-width: 800px) and (max-width: 900px) {
   .header-bottom ul li:nth-child(n + 7) {
     display: none;
   }
+
   .mobile-sidebar {
     display: none !important;
   }
-  .training__card_area{
+
+  .best__selling {
     display: grid;
-    grid-template-columns: repeat(2,1fr);    
+    grid-template-columns: repeat(2, 1fr);
   }
-  
+  #my__job__search__wrapper {
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #my__job__search__wrapper .my__job__image,
+  #my__job__search__wrapper .my__job__main {
+    max-width: 100%;
+    flex: none;
+  }
+
+  #my__job__search__wrapper .my__job__main h3 {
+    font-size: 24px;
+  }
+
+  #my__job__search__wrapper .my__job__main small {
+    font-size: 14px;
+  }
+
+  #my__job__search__wrapper .my__job__main button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  #training__summary .best__seller {
+    margin-top: 40px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #training__summary .software__card {
+    margin-top: 40px;
+    width: 100%;
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #training__summary .company__card {
+    margin-top: 40px;
+    width: 100%;
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #training__summary .training__card {
+    width: 100% !important;
+    height: 460px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 1px solid rgba(128, 128, 128, 0.368);
+    padding: 25px;
+    background-color: rgba(245, 245, 245, 0.628);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #training__summary .training__menu {
+    display: none;
+  }
+
+  .training__list__wrapper .training__list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+    justify-content: space-between;
+  }
+
+  .training__list__wrapper .training__card {
+    width: 100% !important;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 1px solid rgba(128, 128, 128, 0.368);
+    padding: 25px;
+    background-color: rgba(245, 245, 245, 0.628);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .blog {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+  }
+
+  .blog .blog__main {
+    width: 100%;
+    text-align: center;
+  }
+
+  .blog__card__list {
+    margin-top: 10px;
+    width: 100% !important;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .blog__card__list .training__card {
+    margin-top: 10px;
+    height: auto;
+    width: 100% !important;
+  }
 }
+
 @media (min-width: 768px) and (max-width: 800px) {
   .header-bottom {
     display: none !important;
   }
+
   .header-top-search {
     display: none;
   }
+
   .header-top-menu {
     display: none !important;
   }
+
   .header-top-logo {
     width: 100%;
     text-align: center;
   }
+
   .phone-menu-right {
     display: block !important;
   }
+
   #mobile-menu-icon {
     display: block;
     position: relative;
   }
+  .trainings__slider__area{
+    width: 100%;
+    display: grid !important;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+  }
 
-  .training__card_area{
+  #training__summary .best__seller {
+    margin-top: 40px;
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(2,1fr);    
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #training__summary .software__card {
+    margin-top: 40px;
+    width: 100%;
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #training__summary .company__card {
+    margin-top: 40px;
+    width: 100%;
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #training__summary .training__card {
+    width: 100% !important;
+    height: 460px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 1px solid rgba(128, 128, 128, 0.368);
+    padding: 25px;
+    background-color: rgba(245, 245, 245, 0.628);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #training__summary .training__menu {
+    display: none;
+  }
+
+  .training__list__wrapper .training__list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+    justify-content: space-between;
+  }
+
+  .training__list__wrapper .training__card {
+    width: 100% !important;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 1px solid rgba(128, 128, 128, 0.368);
+    padding: 25px;
+    background-color: rgba(245, 245, 245, 0.628);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  #my__job__search__wrapper {
+    padding: 15px;
+  }
+
+  #my__job__search__wrapper .my__job__main h3 {
+    font-size: 20px;
+  }
+
+  #my__job__search__wrapper .my__job__main small {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+
+  #my__job__search__wrapper .my__job__main button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .best__selling {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .blog {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+  }
+
+  .blog .blog__main {
+    width: 100%;
+    text-align: center;
+  }
+
+  .blog__card__list {
+    margin-top: 10px;
+    width: 100% !important;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .blog__card__list .training__card {
+    margin-top: 10px;
+    height: auto;
+    width: 100% !important;
   }
 }
+
 @media (min-width: 576px) and (max-width: 768px) {
   .header-bottom {
     display: none !important;
   }
+
   .header-top-search {
     display: none;
   }
+
   .header-top-menu {
     display: none !important;
   }
+
   .header-top-logo {
     width: 100%;
     text-align: center;
   }
+
   .phone-menu-right {
     display: block !important;
   }
+
   #mobile-menu-icon {
     display: block;
   }
-  .training__card_area{
+
+  .best__selling {
     display: grid;
-    grid-template-columns: repeat(1,1fr);  
+    grid-template-columns: repeat(1, 1fr);
   }
+  .trainings__slider__area{
+    width: 100%;
+    display: grid !important;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  #training__summary .best__seller {
+    margin-top: 40px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #training__summary .company__card {
+    margin-top: 40px;
+    width: 100%;
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #training__summary .software__card {
+    margin-top: 40px;
+    width: 100%;
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #training__summary .training__card {
+    width: 100% !important;
+    height: 460px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 1px solid rgba(128, 128, 128, 0.368);
+    padding: 25px;
+    background-color: rgba(245, 245, 245, 0.628);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #training__summary .training__menu {
+    display: none;
+  }
+
+  .form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .form-container .form-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .training__list__wrapper .training__list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+    justify-content: space-between;
+  }
+
+  .training__list__wrapper .training__card {
+    width: 100% !important;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 1px solid rgba(128, 128, 128, 0.368);
+    padding: 25px;
+    background-color: rgba(245, 245, 245, 0.628);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
   .privileges__area {
     width: 100%;
   }
+
+  #my__job__search__wrapper {
+    padding: 15px;
+  }
+
+  #my__job__search__wrapper .my__job__main h3 {
+    font-size: 20px;
+  }
+
+  #my__job__search__wrapper .my__job__main small {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+
+  #my__job__search__wrapper .my__job__main button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+  .blog {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+  }
+
+  .blog .blog__main {
+    width: 100%;
+    text-align: center;
+  }
+
+  .blog__card__list {
+    margin-top: 10px;
+    width: 100% !important;
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .blog__card__list .training__card {
+    margin-top: 10px;
+    height: auto;
+    width: 100% !important;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
 }
+
 @media (min-width: 0px) and (max-width: 576px) {
   .header-bottom {
     display: none !important;
   }
+
   .header-top-search {
     display: none;
   }
+
   .header-top-menu {
     display: none !important;
   }
+
   .header-top-logo {
     width: 100%;
     text-align: center;
   }
+
   #mobile-menu-icon {
     display: block;
   }
+
   .phone-menu-right {
     display: block !important;
-   }
-  .training__card_area{
+  }
+
+  .best__selling {
     display: grid;
-    grid-template-columns: repeat(1,1fr);    
+    grid-template-columns: repeat(1, 1fr);
     text-align: center;
   }
-  .training__card{
+.trainings__slider__area{
+  width: 100%;
+  display: grid !important;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+  #training__summary .best__seller {
+    margin-top: 40px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #training__summary .company__card {
+    margin-top: 40px;
+    width: 100%;
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #training__summary .software__card {
+    margin-top: 40px;
+    width: 100%;
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #training__summary .training__menu {
+    display: none;
+  }
+
+  #training__summary .training__card {
+    width: 100% !important;
+    height: 460px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 1px solid rgba(128, 128, 128, 0.368);
+    padding: 25px;
+    background-color: rgba(245, 245, 245, 0.628);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #my__job__search__wrapper {
+    padding: 10px;
+  }
+
+  #my__job__search__wrapper .my__job__main h3 {
+    font-size: 18px;
+  }
+
+  #my__job__search__wrapper .my__job__main small {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  #my__job__search__wrapper .my__job__main button {
+    font-size: 12px;
+    padding: 8px 14px;
+  }
+
+  .form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .form-container .form-wrapper {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   }
-  #my__job__search__wrapper{
+
+  .privileges__area {
+    width: 100%;
+  }
+
+  .training__list__wrapper .training__list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+    justify-content: space-between;
+  }
+
+  .training__list__wrapper .training__card {
+    width: 100% !important;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 1px solid rgba(128, 128, 128, 0.368);
+    padding: 25px;
+    background-color: rgba(245, 245, 245, 0.628);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .blog {
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
   }
-  .privileges__area {
+
+  .blog .blog__main {
     width: 100%;
+    text-align: center;
+  }
+
+  .blog__card__list {
+    margin-top: 10px;
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blog__card__list .training__card {
+    margin-top: 10px;
+    height: auto;
+    width: 100% !important;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
   }
 }

@@ -1,651 +1,941 @@
 <!DOCTYPE html>
 <html lang="tr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="../public/style.css" />
-    <title>Education Asemsoft</title>
-  </head>
-  <body>
-    <header class="header" id="header">
-      <div class="header-top">
-        <a id="mobile-menu-icon"><i class="bi bi-list"></i></a>
-        <div class="mobile-sidebar">
-          <div class="my-account-wrapper">
-            <div class="account-profile">SG</div>
-            <div class="account-main">
-              <h4>Hoşgeldin</h4>
-              <h4>Selimcan Gürsu</h4>
-              <p class="account-main-pr">Tekrardan Hoşgeldiniz!</p>
-            </div>
-            <a
-              id="close-sidebar-button"
-              style="font-size: 24px; color: black; cursor: pointer"
-              ><i class="bi bi-x"></i
-            ></a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Selimcan Gürsu | Full Stack Web Developer">
+  <meta name="description" content="Asem Academy ile online eğitim dünyasına adım atın! Yazılım, grafik tasarım, dijital pazarlama, kişisel gelişim ve daha birçok konuda profesyonel eğitimler sizi bekliyor." />
+  <meta name="keywords" content="online eğitim, yazılım kursları, dijital pazarlama eğitimi, grafik tasarım, kişisel gelişim,  asem academy, mesleki eğitim" />
+  <meta property="og:title" content="Asem Academy - Online Eğitim Platformu" />
+  <meta property="og:description" content="Kodlamadan tasarıma, pazarlamadan finansal okuryazarlığa kadar geniş bir eğitim yelpazesi sunuyoruz!" />
+  <meta property="og:image" content="#" />
+  <meta property="og:url" content="https://www.education.asemsoft.com" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Asem Academy -Eğitim Platformu" />
+  <meta name="twitter:description" content="Uzman eğitmenlerimizle yazılım, grafik tasarım, pazarlama ve kişisel gelişim eğitimleriyle kariyerinizi ileriye taşıyın!" />
+  <meta name="twitter:image" content="#" />
+  <link rel="canonical" href="https://www.education.asemsoft.com" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../public/style.css" />
+  <title>Education Asem Academy</title>
+</head>
+<body>
+  <header class="header" id="header">
+    <div class="header-top">
+      <a id="mobile-menu-icon"><i class="bi bi-list"></i></a>
+      <div class="mobile-sidebar">
+        <div class="my-account-wrapper">
+          <div class="account-profile">SG</div>
+          <div class="account-main">
+            <h4>Hoşgeldin</h4>
+            <h4>Selimcan Gürsu</h4>
+            <p class="account-main-pr">Tekrardan Hoşgeldiniz!</p>
           </div>
-          <div class="teacher-student-change-area">
-            <a href="">Eğitmen Görünümüne Geçiş Yap</a>
-          </div>
-          <hr />
-          <div class="my_lesson_area">
-            <label style="color: rgb(108, 107, 107)">Öğrenin</label>
-            <a href="">Öğrenim İçeriğim</a>
-          </div>
-          <hr />
-          <div class="sidebar-certificate-wrapper">
-            <a class="certificate-text" href="">Sertifika Hazırlığı</a>
-            <a href=""><i class="bi bi-arrow-right"></i> </a>
-          </div>
-          <hr />
-          <div class="sidebar-populer-categories">
-            <label style="color: rgb(108, 107, 107)">En Popüler</label>
-            <a href="">Web Geliştirme</a>
-            <a href="">Mobil Yazılım Geliştirme</a>
-            <a href="">Oyun Geliştirme</a>
-            <a href="">Girişimcilik</a>
-            <a href="">İş Anatiliği ve Zekası</a>
-            <a href="">Finans</a>
-            <a href="">BT Sertifikası</a>
-            <a href="">Kişisel Gelişim</a>
-            <a href="">Grafik Tasarım</a>
-            <a href="">Dijital Pazarlama</a>
-            <a href="">Tüm Kategoriler</a>
-          </div>
-          <hr />
-          <div class="sidebar-orders-categories">
-            <label style="color: rgb(108, 107, 107)"
-              >Asem Academynin Sunduğu Diğer Hizmetler</label
-            >
-            <a href="">Asem Business</a>
-            <a href="">Uygulamayı Edinin</a>
-            <a href="">Arkadaşlarınızı Davet Edin</a>
-            <a href="">Yardım ve Destek</a>
-          </div>
+          <a id="close-sidebar-button" style="font-size: 24px; color: black; cursor: pointer"><i
+              class="bi bi-x"></i></a>
         </div>
-        <div class="header-top-logo">
-          <img src="../assets/image/asem academy-Photoroom.png" alt="logo" />
+        <div class="teacher-student-change-area">
+          <a href="">Eğitmen Görünümüne Geçiş Yap</a>
         </div>
-        <div class="header-top-search">
-          <input
-            id="search-input"
-            placeholder="Ne Öğrenmek İstersiniz ?"
-            type="text"
-          />
+        <hr />
+        <div class="my_lesson_area">
+          <label style="color: rgb(108, 107, 107)">Öğrenin</label>
+          <a href="">Öğrenim İçeriğim</a>
         </div>
-        <div class="header-top-menu">
-          <ul>
-            <li><a href="#">Asem Business</a></li>
-            <li><a href="#">Eğitmen</a></li>
-            <li><a href="#">Öğrenim İçeriğim</a></li>
-            <li>
-              <a href="#"><i class="bi bi-heart"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="bi bi-bag-check"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="bi bi-bell"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="bi bi-person-square"></i></a>
-            </li>
-          </ul>
+        <hr />
+        <div class="sidebar-certificate-wrapper">
+          <a class="certificate-text" href="">Sertifika Hazırlığı</a>
+          <a href=""><i class="bi bi-arrow-right"></i> </a>
         </div>
-        <div class="phone-menu-right">
-          <ul>
-            <li>
-              <a href=""><i class="bi bi-search"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="bi bi-bag-check"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="bi bi-person-square"></i></a>
-            </li>
-          </ul>
+        <hr />
+        <div class="sidebar-populer-categories">
+          <label style="color: rgb(108, 107, 107)">En Popüler</label>
+          <a href="">Web Geliştirme</a>
+          <a href="">Mobil Yazılım Geliştirme</a>
+          <a href="">Oyun Geliştirme</a>
+          <a href="">Girişimcilik</a>
+          <a href="">İş Anatiliği ve Zekası</a>
+          <a href="">Finans</a>
+          <a href="">BT Sertifikası</a>
+          <a href="">Kişisel Gelişim</a>
+          <a href="">Grafik Tasarım</a>
+          <a href="">Dijital Pazarlama</a>
+          <a href="">Tüm Kategoriler</a>
+        </div>
+        <hr />
+        <div class="sidebar-orders-categories">
+          <label style="color: rgb(108, 107, 107)">Asem Academynin Sunduğu Diğer Hizmetler</label>
+          <a href="">Asem Business</a>
+          <a href="">Uygulamayı Edinin</a>
+          <a href="">Arkadaşlarınızı Davet Edin</a>
+          <a href="">Yardım ve Destek</a>
         </div>
       </div>
-      <div class="header-bottom">
+      <div class="header-top-logo">
+        <img src="../assets/image/asem academy-Photoroom.png" alt="logo" />
+      </div>
+      <div class="header-top-search">
+        <input id="search-input" placeholder="Ne Öğrenmek İstersiniz ?" type="text" />
+      </div>
+      <div class="header-top-menu">
         <ul>
+          <li><a href="#">Asem Business</a></li>
+          <li><a href="#">Eğitmen</a></li>
+          <li><a href="#">Öğrenim İçeriğim</a></li>
           <li>
-            <a id="software_development" href="#">Yazılım Geliştirme</a>
-            <div class="header-bottom-main" id="software_development_main">
-              <ul>
-                <li><a href="">Web Geliştirme</a></li>
-                <li><a href="">Mobil Yazılım Geliştirme</a></li>
-                <li><a href="">Programlama Dilleri</a></li>
-                <li><a href="">Oyun Geliştirme</a></li>
-                <li><a href="">Veri Tabanı Tasarlama ve Geliştirme</a></li>
-                <li><a href="">Yazılım Testi</a></li>
-              </ul>
-            </div>
+            <a href="#"><i class="bi bi-heart"></i></a>
           </li>
           <li>
-            <a id="business" href="#">İşletme</a>
-            <div class="header-bottom-main" id="business_main">
-              <ul>
-                <li><a href="">Girişimcilik</a></li>
-                <li><a href="">İletişim</a></li>
-                <li><a href="">Yönetim</a></li>
-                <li><a href="">Satış</a></li>
-                <li><a href="">İş Stratejisi</a></li>
-              </ul>
-            </div>
+            <a href="#"><i class="bi bi-bag-check"></i></a>
           </li>
           <li>
-            <a id="finance_accounting" href="#">Finans ve Muhasebe</a>
-            <div class="header-bottom-main" id="finance_accounting_main">
-              <ul>
-                <li><a href="">Muhasebe ve Defter Tutma</a></li>
-                <li><a href="">Sanal Para Birimi ve Blockchain</a></li>
-                <li><a href="">Finans</a></li>
-                <li><a href="">Finans Modelleme ve Analiz</a></li>
-                <li><a href="">Yatırım ve Ticaret</a></li>
-              </ul>
-            </div>
+            <a href="#"><i class="bi bi-bell"></i></a>
           </li>
           <li>
-            <a id="bt_software" href="#">BT ve Yazılım</a>
-            <div class="header-bottom-main" id="bt_software_main">
-              <ul>
-                <li><a href="">BT Sertifikası</a></li>
-                <li><a href="">Ağ ve Güvenlik</a></li>
-                <li><a href="">Donanım</a></li>
-                <li><a href="">İşletim Sistemleri ve Sunucular</a></li>
-                <li><a href="">Diğer BT ve Yazılım</a></li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <a id="office_productivity" href="#">Ofiste Verimlilik</a>
-            <div class="header-bottom-main" id="office_productivity_main">
-              <ul>
-                <li><a href="">Microsoft</a></li>
-                <li><a href="">Apple</a></li>
-                <li><a href="">Google</a></li>
-                <li><a href="">SAP</a></li>
-                <li><a href="">Diğer Ofiste Verimlilik</a></li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <a id="personal_development" href="#">Kişisel Gelişim</a>
-            <div class="header-bottom-main" id="personal_development_main">
-              <ul>
-                <li><a href="">Kişisel Gelişim</a></li>
-                <li><a href="">Kişisel Verimlilik</a></li>
-                <li><a href="">Liderlik</a></li>
-                <li><a href="">Kariyet Geliştirme</a></li>
-                <li><a href="">Ebevenylik ve İlişkiler</a></li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <a id="design" href="#">Tasarım</a>
-            <div class="header-bottom-main" id="design_main">
-              <ul>
-                <li><a href="">Web Tasarımı</a></li>
-                <li><a href="">Diğer Garfik Tasarım ve Illustrasyon</a></li>
-                <li><a href="">Tasarım Araçları</a></li>
-                <li><a href="">Kullanıcı Deneyimi Tasarımı</a></li>
-                <li><a href="">Oyun Tasarımı</a></li>
-                <li><a href="">3D ve Animasyon</a></li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <a id="marketing" href="#">Pazarlama</a>
-            <div class="header-bottom-main" id="marketing_main">
-              <ul>
-                <li><a href="">Dijital Pazarlama</a></li>
-                <li><a href="">Arama Motoru ve Optimizasyonu</a></li>
-                <li><a href="">Sosyal Medya ve Pazarlama</a></li>
-                <li><a href="">Markalaştırma</a></li>
-                <li><a href="">Pazarlamanın Temelleri</a></li>
-                <li><a href="">Pazarlama Analizi ve Otomasyon</a></li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <a id="healt_fitness" href="#">Sağlık ve Fitness</a>
-            <div class="header-bottom-main" id="healt_fitness_main">
-              <ul>
-                <li><a href="">Fitness</a></li>
-                <li><a href="">Genelş Sağlık</a></li>
-                <li><a href="">Spor</a></li>
-                <li><a href="">Beslenme ve Diyet</a></li>
-                <li><a href="">Yoga</a></li>
-                <li><a href="">Ruh Sağlığı</a></li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <a id="music" href="#">Müzik</a>
-            <div class="header-bottom-main" id="music_main">
-              <ul>
-                <li><a href="">Enstürumanlar</a></li>
-                <li><a href="">Müzik Prodiksiyonu</a></li>
-                <li><a href="">Müziğin Temelleri</a></li>
-                <li><a href="">Vokal</a></li>
-                <li><a href="">Müzik Teknikleri</a></li>
-                <li><a href="">Müzik Yazılımı</a></li>
-              </ul>
-            </div>
+            <a href="#"><i class="bi bi-person-square"></i></a>
           </li>
         </ul>
       </div>
-    </header>
-    <section id="home-slider-wrapper">
-      <div class="slides">
-        <div class="slider slider-1">
-          <img src="" alt="img-1" />
-        </div>
-        <div class="slider slider-2">
-          <img src="" alt="img-2" />
-        </div>
-        <div class="slider slider-3">
-          <img src="" alt="img-3" />
-        </div>
-      </div>
-      <div class="slides-button-group">
-        <a id="backImageButton"><i class="bi bi-arrow-left"></i></a>
-        <a id="nextImageButton"><i class="bi bi-arrow-right"></i></a>
-      </div>
-    </section>
-    <section id="trainings__slider">
-      <div class="trainings__slider__area">
-        <div class="training__slider">
-          <div class="slider__icon">
-            <img
-              src="https://cdn-icons-png.freepik.com/256/16991/16991737.png?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
-              alt=""
-            />
-          </div>
-          <small>Akademik Sınavlar</small>
-        </div>
-        <div class="training__slider">
-          <div class="slider__icon">
-            <img
-              src="https://cdn-icons-png.freepik.com/256/340/340438.png?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
-              alt=""
-            />
-          </div>
-          <small>Kurumsal İngilizce</small>
-        </div>
-        <div class="training__slider">
-          <div class="slider__icon">
-            <img
-              src="https://cdn-icons-png.freepik.com/256/10913/10913583.png?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
-              alt=""
-            />
-          </div>
-          <small>Online İngilizce</small>
-        </div>
-        <div class="training__slider">
-          <div class="slider__icon">
-            <img
-              src="https://cdn-icons-png.freepik.com/256/18879/18879580.png?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
-              alt=""
-            />
-          </div>
-          <small>Online Tesol</small>
-        </div>
-        <div class="training__slider">
-          <div class="slider__icon">
-            <img
-              src="https://cdn-icons-png.freepik.com/256/14802/14802222.png?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
-              alt=""
-            />
-          </div>
-          <small>Genel İngilizce</small>
-        </div>
-        <div class="training__slider">
-          <div class="slider__icon">
-            <img
-              src="https://cdn-icons-png.freepik.com/256/18695/18695381.png?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
-              alt=""
-            />
-          </div>
-          <small>Çocuk İngilizcesi</small>
-        </div>
-        <div class="training__slider">
-          <div class="slider__icon">
-            <img
-              src="https://cdn-icons-png.freepik.com/256/14691/14691933.png?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
-              alt=""
-            />
-          </div>
-          <small>Özel Ders</small>
-        </div>
-      </div>
-    </section>
-    <section id="training__summary">
-      <h3 class="training__summary__title">Popüler Eğitimler</h3>
-      <div class="training__menu">
+      <div class="phone-menu-right">
         <ul>
           <li>
-            <a type="button" style="color: purple !important" id="offerOpen"
-              >En Çok Satılan</a
-            >
+            <a href=""><i class="bi bi-search"></i></a>
           </li>
-          <li><a type="button" id="academicOpen">Yazılım Geliştirme</a></li>
-          <li><a type="button" id="childrenOpen">İşletme</a></li>
-          <li><a type="button" id="businessOpen">Finans ve Muhasebe</a></li>
+          <li>
+            <a href="#"><i class="bi bi-bag-check"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="bi bi-person-square"></i></a>
+          </li>
         </ul>
       </div>
-      <br />
-      <hr />
-      <div class="training__card_area">
-        <div class="training__card">
-          <img
-            src="https://serifaliamerikancakultur.com/images/training/akademik%20kopya.webp"
-            alt="image"
-          />
-          <h3>Genel İngilizce Eğitimleri</h3>
-          <div class="training__card__body">
-            <small
-              >Uzman Öğretmenlerle 8-12 Kişilik Sınıflarda Eğitim
-              Alabilirsiniz.</small
-            >
-            <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
+    </div>
+    <div class="header-bottom">
+      <ul>
+        <li>
+          <a id="software_development" href="#">Yazılım Geliştirme</a>
+          <div class="header-bottom-main" id="software_development_main">
+            <ul>
+              <li><a href="">Web Geliştirme</a></li>
+              <li><a href="">Mobil Yazılım Geliştirme</a></li>
+              <li><a href="">Programlama Dilleri</a></li>
+              <li><a href="">Oyun Geliştirme</a></li>
+              <li><a href="">Veri Tabanı Tasarlama ve Geliştirme</a></li>
+              <li><a href="">Yazılım Testi</a></li>
+            </ul>
           </div>
-        </div>
-        <div class="training__card">
-          <img
-            src="https://serifaliamerikancakultur.com/images/training/genel%20kopya%202.webp"
-            alt="image"
-          />
-          <h3>Akademik Sınav Eğitimleri</h3>
-
-          <div class="training__card__body">
-            <small
-              >Akademik Sınav Eğitimleri Birebir Olarak Verilmektedir.</small
-            >
-            <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
+        </li>
+        <li>
+          <a id="business" href="#">İşletme</a>
+          <div class="header-bottom-main" id="business_main">
+            <ul>
+              <li><a href="">Girişimcilik</a></li>
+              <li><a href="">İletişim</a></li>
+              <li><a href="">Yönetim</a></li>
+              <li><a href="">Satış</a></li>
+              <li><a href="">İş Stratejisi</a></li>
+            </ul>
           </div>
-        </div>
-        <div class="training__card">
-          <img
-            src="https://serifaliamerikancakultur.com/images/training/o%CC%88zel%20ders.webp"
-            alt="image"
-          />
-          <h3>Özel Ders Programları</h3>
-
-          <div class="training__card__body">
-            <small>Özel Ders Eğitimleri Birebir Olarak Verilmektedir.</small>
-            <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
+        </li>
+        <li>
+          <a id="finance_accounting" href="#">Finans ve Muhasebe</a>
+          <div class="header-bottom-main" id="finance_accounting_main">
+            <ul>
+              <li><a href="">Muhasebe ve Defter Tutma</a></li>
+              <li><a href="">Sanal Para Birimi ve Blockchain</a></li>
+              <li><a href="">Finans</a></li>
+              <li><a href="">Finans Modelleme ve Analiz</a></li>
+              <li><a href="">Yatırım ve Ticaret</a></li>
+            </ul>
           </div>
-        </div>
-        <div class="training__card">
-          <img
-            src="https://serifaliamerikancakultur.com/images/training/junior%20kopya.webp"
-            alt="image"
-          />
-          <h3>Junior İngilizce Eğitimleri</h3>
-
-          <div class="training__card__body">
-            <small
-              >Uzman Öğretmenlerle 6-14 Kişilik Sınıflarda Eğitim
-              Alabilirsiniz.</small
-            >
-            <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
+        </li>
+        <li>
+          <a id="bt_software" href="#">BT ve Yazılım</a>
+          <div class="header-bottom-main" id="bt_software_main">
+            <ul>
+              <li><a href="">BT Sertifikası</a></li>
+              <li><a href="">Ağ ve Güvenlik</a></li>
+              <li><a href="">Donanım</a></li>
+              <li><a href="">İşletim Sistemleri ve Sunucular</a></li>
+              <li><a href="">Diğer BT ve Yazılım</a></li>
+            </ul>
           </div>
-        </div>
+        </li>
+        <li>
+          <a id="office_productivity" href="#">Ofiste Verimlilik</a>
+          <div class="header-bottom-main" id="office_productivity_main">
+            <ul>
+              <li><a href="">Microsoft</a></li>
+              <li><a href="">Apple</a></li>
+              <li><a href="">Google</a></li>
+              <li><a href="">SAP</a></li>
+              <li><a href="">Diğer Ofiste Verimlilik</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a id="personal_development" href="#">Kişisel Gelişim</a>
+          <div class="header-bottom-main" id="personal_development_main">
+            <ul>
+              <li><a href="">Kişisel Gelişim</a></li>
+              <li><a href="">Kişisel Verimlilik</a></li>
+              <li><a href="">Liderlik</a></li>
+              <li><a href="">Kariyet Geliştirme</a></li>
+              <li><a href="">Ebevenylik ve İlişkiler</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a id="design" href="#">Tasarım</a>
+          <div class="header-bottom-main" id="design_main">
+            <ul>
+              <li><a href="">Web Tasarımı</a></li>
+              <li><a href="">Diğer Garfik Tasarım ve Illustrasyon</a></li>
+              <li><a href="">Tasarım Araçları</a></li>
+              <li><a href="">Kullanıcı Deneyimi Tasarımı</a></li>
+              <li><a href="">Oyun Tasarımı</a></li>
+              <li><a href="">3D ve Animasyon</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a id="marketing" href="#">Pazarlama</a>
+          <div class="header-bottom-main" id="marketing_main">
+            <ul>
+              <li><a href="">Dijital Pazarlama</a></li>
+              <li><a href="">Arama Motoru ve Optimizasyonu</a></li>
+              <li><a href="">Sosyal Medya ve Pazarlama</a></li>
+              <li><a href="">Markalaştırma</a></li>
+              <li><a href="">Pazarlamanın Temelleri</a></li>
+              <li><a href="">Pazarlama Analizi ve Otomasyon</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a id="healt_fitness" href="#">Sağlık ve Fitness</a>
+          <div class="header-bottom-main" id="healt_fitness_main">
+            <ul>
+              <li><a href="">Fitness</a></li>
+              <li><a href="">Genelş Sağlık</a></li>
+              <li><a href="">Spor</a></li>
+              <li><a href="">Beslenme ve Diyet</a></li>
+              <li><a href="">Yoga</a></li>
+              <li><a href="">Ruh Sağlığı</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a id="music" href="#">Müzik</a>
+          <div class="header-bottom-main" id="music_main">
+            <ul>
+              <li><a href="">Enstürumanlar</a></li>
+              <li><a href="">Müzik Prodiksiyonu</a></li>
+              <li><a href="">Müziğin Temelleri</a></li>
+              <li><a href="">Vokal</a></li>
+              <li><a href="">Müzik Teknikleri</a></li>
+              <li><a href="">Müzik Yazılımı</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <section id="home-slider-wrapper">
+    <div class="slides">
+      <div class="slider slider-1">
+        <img src="" alt="img-1" />
       </div>
-      <div class="academic__card__area">
-        <div class="training__card">
-          <img
-            src="https://serifaliamerikancakultur.com/images/training/genel%20kopya%202.webp"
-            alt="image"
-          />
-          <h3>Akademik Sınav Eğitimleri</h3>
-
-          <div class="training__card__body">
-            <small
-              >Akademik Sınav Eğitimleri Birebir Olarak Verilmektedir.</small
-            >
-            <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
-          </div>
-        </div>
-        <div class="training__card">
-          <img
-            src="https://serifaliamerikancakultur.com/images/training/akademik%20kopya.webp"
-            alt="image"
-          />
-          <h3>Genel İngilizce Eğitimleri</h3>
-          <div class="training__card__body">
-            <small
-              >Uzman Öğretmenlerle 8-12 Kişilik Sınıflarda Eğitim
-              Alabilirsiniz.</small
-            >
-            <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
-          </div>
-        </div>
-        <div class="training__card">
-          <img
-            src="https://serifaliamerikancakultur.com/images/training/o%CC%88zel%20ders.webp"
-            alt="image"
-          />
-          <h3>Özel Ders Programları</h3>
-
-          <div class="training__card__body">
-            <small>Özel Ders Eğitimleri Birebir Olarak Verilmektedir.</small>
-            <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
-          </div>
-        </div>
-        <div class="training__card">
-          <img
-            src="https://serifaliamerikancakultur.com/images/training/akademik%20kopya.webp"
-            alt="image"
-          />
-          <h3>Genel İngilizce Eğitimleri</h3>
-          <div class="training__card__body">
-            <small
-              >Uzman Öğretmenlerle 8-12 Kişilik Sınıflarda Eğitim
-              Alabilirsiniz.</small
-            >
-            <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
-          </div>
-        </div>
+      <div class="slider slider-2">
+        <img src="" alt="img-2" />
       </div>
-      <div class="children__card__area">
-        <div class="training__card">
-          <img
-            src="https://serifaliamerikancakultur.com/images/training/junior%20kopya.webp"
-            alt="image"
-          />
-          <h3>Junior İngilizce Eğitimleri</h3>
-
-          <div class="training__card__body">
-            <small
-              >Uzman Öğretmenlerle 6-14 Kişilik Sınıflarda Eğitim
-              Alabilirsiniz.</small
-            >
-            <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
-          </div>
-        </div>
-        <div class="training__card">
-          <img
-            src="https://serifaliamerikancakultur.com/images/training/akademik%20kopya.webp"
-            alt="image"
-          />
-          <h3>Genel İngilizce Eğitimleri</h3>
-          <div class="training__card__body">
-            <small
-              >Uzman Öğretmenlerle 8-12 Kişilik Sınıflarda Eğitim
-              Alabilirsiniz.</small
-            >
-            <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
-          </div>
-        </div>
-        <div class="training__card">
-          <img
-            src="https://serifaliamerikancakultur.com/images/training/genel%20kopya%202.webp"
-            alt="image"
-          />
-          <h3>Akademik Sınav Eğitimleri</h3>
-
-          <div class="training__card__body">
-            <small
-              >Akademik Sınav Eğitimleri Birebir Olarak Verilmektedir.</small
-            >
-            <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
-          </div>
-        </div>
-        <div class="training__card">
-          <img
-            src="https://serifaliamerikancakultur.com/images/training/o%CC%88zel%20ders.webp"
-            alt="image"
-          />
-          <h3>Özel Ders Programları</h3>
-
-          <div class="training__card__body">
-            <small>Özel Ders Eğitimleri Birebir Olarak Verilmektedir.</small>
-            <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
-          </div>
-        </div>
+      <div class="slider slider-3">
+        <img src="" alt="img-3" />
       </div>
-      <div class="business__card__area">
-        <div class="training__card">
+    </div>
+    <div class="slides-button-group">
+      <a id="backImageButton"><i class="bi bi-arrow-left"></i></a>
+      <a id="nextImageButton"><i class="bi bi-arrow-right"></i></a>
+    </div>
+  </section>
+  <section id="trainings__slider">
+    <div class="trainings__slider__area">
+      <div class="training__slider">
+        <div class="slider__icon">
           <img
-            src="https://serifaliamerikancakultur.com/images/training/kurumsal.webp"
-            alt="image"
-          />
-          <h3>Kurumsal Eğitimleri</h3>
-          <div class="training__card__body">
-            <small
-              >Uzman Öğretmenlerle 8-12 Kişilik Sınıflarda Eğitim
-              Alabilirsiniz.</small
-            >
-            <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
-          </div>
+            src="https://cdn-icons-png.freepik.com/256/14128/14128699.png?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+            alt="" />
         </div>
-        <div class="training__card">
-          <img
-            src="https://serifaliamerikancakultur.com/images/training/akademik%20kopya.webp"
-            alt="image"
-          />
-          <h3>Genel İngilizce Eğitimleri</h3>
-          <div class="training__card__body">
-            <small
-              >Uzman Öğretmenlerle 8-12 Kişilik Sınıflarda Eğitim
-              Alabilirsiniz.</small
-            >
-            <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
-          </div>
-        </div>
-        <div class="training__card">
-          <img
-            src="https://serifaliamerikancakultur.com/images/training/genel%20kopya%202.webp"
-            alt="image"
-          />
-          <h3>Akademik İngilizce Eğitimleri</h3>
-          <div class="training__card__body">
-            <small
-              >Uzman Öğretmenlerle 8-12 Kişilik Sınıflarda Eğitim
-              Alabilirsiniz.</small
-            >
-            <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
-          </div>
-        </div>
-        <div class="training__card">
-          <img
-            src="https://serifaliamerikancakultur.com/images/training/o%CC%88zel%20ders.webp"
-            alt="image"
-          />
-          <h3>Özel Ders Eğitimleri</h3>
-          <div class="training__card__body">
-            <small
-              >Uzman Öğretmenlerle 8-12 Kişilik Sınıflarda Eğitim
-              Alabilirsiniz.</small
-            >
-            <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
-          </div>
-        </div>
+        <small>Yazılım Geliştirme</small>
       </div>
-    </section>
-    <section id="webform__wrapper"></section>
-    <section id="my__job__search__wrapper">
-      <div class="my__job__image">
+      <div class="training__slider">
+        <div class="slider__icon">
+          <img
+            src="https://cdn-icons-png.freepik.com/256/781/781902.png?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+            alt="" />
+        </div>
+        <small>Finans ve Muhasebe</small>
+      </div>
+      <div class="training__slider">
+        <div class="slider__icon">
+          <img
+            src="https://cdn-icons-png.freepik.com/256/10913/10913583.png?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+            alt="" />
+        </div>
+        <small>BT ve Yazılım</small>
+      </div>
+      <div class="training__slider">
+        <div class="slider__icon">
+          <img
+            src="https://cdn-icons-png.freepik.com/256/2857/2857433.png?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+            alt="" />
+        </div>
+        <small>Tasarım</small>
+      </div>
+      <div class="training__slider">
+        <div class="slider__icon">
+          <img
+            src="https://cdn-icons-png.freepik.com/256/17389/17389152.png?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+            alt="" />
+        </div>
+        <small>Pazarlama</small>
+      </div>
+      <div class="training__slider">
+        <div class="slider__icon">
+          <img
+            src="https://cdn-icons-png.freepik.com/256/17389/17389152.png?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+            alt="" />
+        </div>
+        <small>İşletme</small>
+      </div>
+      <div class="training__slider">
+        <div class="slider__icon">
+          <img
+            src="https://cdn-icons-png.freepik.com/256/3659/3659832.png?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+            alt="" />
+        </div>
+        <small>Müzik ve Nota</small>
+      </div>
+    </div>
+  </section>
+  <section id="training__summary">
+    <h3 class="training__summary__title">Popüler Eğitimler</h3>
+    <div class="training__menu">
+      <ul>
+        <li>
+          <a type="button" style="color: #00264f !important" id="bestSellerOpen">En Çok Satılan</a>
+        </li>
+        <li><a type="button" id="softwareOpen">Yazılım Geliştirme</a></li>
+        <li><a type="button" id="companyOpen">İşletme</a></li>
+        <li><a type="button" id="financeOpen">Finans ve Muhasebe</a></li>
+      </ul>
+    </div>
+    <br />
+    <hr />
+    <div class="best__seller">
+      <div class="training__card">
         <img
-          src="https://img.freepik.com/free-vector/flat-employment-agency-search-new-employees-hire_88138-802.jpg?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
-          alt="image"
-        />
+          src="https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+          alt="image" />
+        <h3>Sıfırdan Zirveye Web Tasarım | Komple Frontend Eğitimi</h3>
+        <div class="training__card__body">
+          <small>Sıfırdan Front-end Developer Olun! | HTML, CSS, JavaScript, Bootstrap 5, jQuery, React ve Daha
+            Fazlasını Öğrenin!
+          </small>
+          <br>
+          <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
+        </div>
       </div>
-      <div class="my__job__main">
-        <h3>Hayalindeki Kariyeri Bul! Testi Çöz ve Keşfet!</h3>
-        <small
-          >Bu test ile yeteneklerin ve ilgi alanlarına en uygun mesleği keşfet!
-          Gelecekte seni hangi kariyerin beklediğini öğrenmek için hemen
-          çöz!</small
-        >
-        <button>Test Başla</button>
-      </div>
-    </section>
+      <div class="training__card">
+        <img
+          src="https://img.freepik.com/free-photo/business-concept-with-team-close-up_23-2149151159.jpg?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+          alt="image" />
+        <h3>Sıfırdan İleri Seviye Uygulamalı Muhasebe Dersleri</h3>
 
-    <section id="our__privileges__wrapper">
-      <div class="privileges__intro">
-        <h1>Asem Academy Ayrıcalıkları</h1>
-        <p>Asem Academy’deki her kurs, öğrencilerimize kaliteli, pratik ve erişilebilir eğitim fırsatları sunar.</p>
-      </div>
-      
-      <div class="privileges__cards">
-        <div class="privileges__area">
-          <div class="privileges__image">
-            <img src="https://cdn-icons-png.freepik.com/256/3750/3750020.png?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid" alt="Uzman Eğitmen Kadrosu" />
-          </div>
-          <div class="privileges__main">
-            <h3>Uzman Eğitmen Kadrosu</h3>
-            <small>Asem Academy'de eğitimler, alanında uzman eğitmenler tarafından sunulur. Her eğitmen, yalnızca konu hakkında derinlemesine bilgiye sahip olmakla kalmaz, aynı zamanda güncel eğitim trendlerini ve pratik uygulamaları da öğrencilerine aktarır.</small>
-          </div>
-        </div>
-    
-        <div class="privileges__area">
-          <div class="privileges__image">
-            <img src="https://cdn-icons-png.freepik.com/256/16614/16614253.png?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid" alt="">          </div>
-          <div class="privileges__main">
-            <h3>Esnek Öğrenme Deneyimi</h3>
-            <small>Online eğitimlerimizi istediğiniz zaman, istediğiniz yerden takip edebilirsiniz. Esnek zaman dilimleri sayesinde, eğitimlerinizi yaşam tarzınıza uygun bir şekilde planlayabilirsiniz.</small>
-          </div>
-        </div>
-    
-        <div class="privileges__area">
-          <div class="privileges__image">
-            <img src="https://cdn-icons-png.freepik.com/256/10270/10270381.png?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid" alt="">
-          </div>
-          <div class="privileges__main">
-            <h3>Sertifikalı ve Tanınan Eğitimler</h3>
-            <small>Asem Academy, katıldığınız kursların sonunda alacağınız sertifikalarla kariyerinizi güçlendirmenize yardımcı olur. Verdiğimiz sertifikalar, sektör profesyonelleri tarafından tanınır ve saygı görür.</small>
-          </div>
-        </div>
-    
-        <div class="privileges__area">
-          <div class="privileges__image">
-            <img src="https://cdn-icons-png.freepik.com/256/10502/10502527.png?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid" alt="">
-          </div>
-          <div class="privileges__main">
-            <h3>Sürekli Güncellenen İçerik</h3>
-            <small>Teknolojinin hızla geliştiği günümüzde, Asem Academy kurs içeriklerini sürekli olarak günceller. Öğrencilerimizin her zaman en güncel bilgiyi almasını sağlamak, en büyük önceliğimizdir.</small>
-          </div>
+        <div class="training__card__body">
+          <small>Hiç bir ön bilgi gerektirmeden muhasebe öğrenin! Üstelik uygulamalı, örnekli ve öğrenme
+            garantili!</small>
+          <br>
+          <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
         </div>
       </div>
-    </section>
-    
-    
-  
-    
-    
-  </body>
-  <script src="../public/app.js"></script>
+      <div class="training__card">
+        <img
+          src="https://img.freepik.com/free-photo/still-life-graphic-design-studio_23-2151320747.jpg?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+          alt="image" />
+        <h3>Grafik Tasarım Eğitimi | Adobe PS, AI, XD</h3>
+        <div class="training__card__body">
+          <small>Photoshop, Illustrator, Experience Design | Üç Temel Grafik Tasarım Uygulamasının Pratik Kullanımı
+          </small>
+          <br>
+          <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
+        </div>
+      </div>
+      <div class="training__card">
+        <img
+          src="https://img.freepik.com/free-photo/flat-lay-wallet-near-laptop_23-2148285319.jpg?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+          alt="image" />
+        <h3>Sözleşme Yönetimi Eğitimi- Contract Management</h3>
+        <div class="training__card__body">
+          <small>Sıfırdan Sözleşme Hazırlamayı, Ekleri ile Birlikte Sözleşme ve Sözleşme Yönetiminin Ne Olduğunu
+            Öğrenin</small><br>
+          <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
+        </div>
+      </div>
+    </div>
+    <div class="software__card">
+      <div class="training__card">
+        <img
+          src="https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+          alt="image" />
+        <h3>Sıfırdan Zirveye Web Tasarım | Komple Frontend Eğitimi</h3>
+        <div class="training__card__body">
+          <small>Sıfırdan Front-end Developer Olun! | HTML, CSS, JavaScript, Bootstrap 5, jQuery, React ve Daha
+            Fazlasını Öğrenin!
+          </small>
+          <br>
+          <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
+        </div>
+      </div>
+      <div class="training__card">
+        <img
+          src="https://img.freepik.com/free-photo/html-css-collage-concept-with-person_23-2150061993.jpg?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+          alt="image" />
+        <h3>Sıfırdan Yazılımcı Olma Kursu | 140+ Soru | Bolca Test</h3>
+        <div class="training__card__body">
+          <small>Özel Ders Tadında Yazılımcı Olma Kursu || C, Python, Html, Css, JavaScript, Bootstrap, React, MySql, C#
+            ve Daha Fazlası.</small>
+          <br>
+          <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
+        </div>
+      </div>
+      <div class="training__card">
+        <img
+          src="https://img.freepik.com/free-vector/hand-drawn-flat-design-api-illustration_23-2149379500.jpg?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+          alt="image" />
+        <h3>Python 2025 : 100 Günlük Programlama Kampı</h3>
+        <div class="training__card__body">
+          <small>Python ve yazılım geliştirme kavramlarını 100 günlük bir kamp ile Twitter Clone vb. güncel uygulamalar
+            yaparak öğrenin</small>
+          <br>
+          <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
+        </div>
+      </div>
+      <div class="training__card">
+        <img
+          src="https://img.freepik.com/free-vector/gradient-top-view-laptop-technology-background_52683-4503.jpg?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+          alt="image" />
+        <h3>C# ile Sıfırdan İlk İşe | C# Eğitimi - Sıfırdan Zirveye</h3>
+        <div class="training__card__body">
+          <small>A'dan Z'ye C# Programlamada Ustalaşın. OOP, Clean Code, LINQ, Windows Forms, Katmanlı Mimari,
+            DevExpress ve Fazlası!
+          </small>
+          <br>
+          <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
+        </div>
+      </div>
+    </div>
+    <div class="company__card">
+      <div class="training__card">
+        <img
+          src="https://img.freepik.com/free-photo/business-concept-with-graphic-holography_23-2149160929.jpg?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+          alt="image" />
+        <h3>Profesörden Kapsamlı MBA: İşletme, Girişimcilik, Finans...</h3>
+        <div class="training__card__body">
+          <small>En Çok Satan İşletme Kursu* Sıfırdan MBA: Kariyer, start-up, işletme yönetimi, finans ve girişimcilik
+            üzerine her şey!</small>
+          <br>
+          <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
+        </div>
+      </div>
+      <div class="training__card">
+        <img
+          src="https://img.freepik.com/free-photo/handshake_1098-17050.jpg?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+          alt="image" />
+        <h3>Finansal Okuryazarlık, Finans Matematiği, Analiz</h3>
+        <div class="training__card__body">
+          <small>Finansta yaşanan gelişmeleri anlamak, yorumlamak ve sebep-sonuç ilişkilerini çözme ve modelleme</small>
+          <br>
+          <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
+        </div>
+      </div>
+      <div class="training__card">
+        <img
+          src="https://img.freepik.com/free-photo/workplace-results-professional-report-accounting_1418-61.jpg?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+          alt="image" />
+        <h3>Şirket Değerleme ve Finansal Strateji Geliştirme</h3>
+        <div class="training__card__body">
+          <small>İkinci Kurs Ücretsiz! Şirketlerin değerini hesaplayın, değerini artıracak unsurları tespit edin ve
+            şirketlere yön verin!
+          </small><br>
+          <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
+        </div>
+      </div>
+      <div class="training__card">
+        <img
+          src="https://img.freepik.com/free-photo/close-up-hand-holding-clipboard_23-2149151173.jpg?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+          alt="image" />
+        <h3>Müşteri İlişkileri Yönetimi: İşletmelere Değer Katmak</h3>
+        <div class="training__card__body">
+          <small>Müşterilerle iyi ilişkiler kurup sadakat oluştururken; yeni müşteriler kazanıp, uyumlu faaliyetler
+            geliştirin!</small><br>
+          <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
+        </div>
+      </div>
+    </div>
+    <div class="finance__card">
+      <div class="training__card">
+        <img
+          src="https://img.freepik.com/free-photo/business-woman-working-office-desktop_23-2148194732.jpg?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+          alt="image" />
+        <h3>Temelden İleri Düzeye Genel Muhasebe</h3>
+        <div class="training__card__body">
+          <small>Alanında yayımlanmış akademik çalışması bulunan SMMM'den yalın anlatım ve soru çözümleriyle genel
+            muhasebe öğrenin</small>
+          <br>
+          <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
+        </div>
+      </div>
+      <div class="training__card">
+        <img
+          src="https://img.freepik.com/free-photo/top-view-desk-with-financial-instruments_23-2148285332.jpg?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+          alt="image" />
+        <h3>Genel Muhasebe Örnek Uygulamalar</h3>
+        <div class="training__card__body">
+          <small>Dönen Varlıklar, Duran Varlıklar, KVYK, Öz Kaynaklar ve Gelir Tablosu tüm hesapların luca ve excel
+            uygulamalı anlatım</small>
+          <br>
+          <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
+        </div>
+      </div>
+      <div class="training__card">
+        <img
+          src="https://img.freepik.com/free-photo/stock-market-exchange-economics-investment-graph_53876-167143.jpg?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+          alt="image" />
+        <h3>Muhasebecilik Mesleğine Giriş: Ön Muhasebe</h3>
+        <div class="training__card__body">
+          <small>Muhasebeciliğe sağlam adımlarla başlayın. Ön muhaseden SMMM'liğe giden yolda yalnız değilsiniz! Hadi
+            Eğitime Sende Katıl Farkı Yarat</small> <br>
+          <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
+        </div>
+      </div>
+      <div class="training__card">
+        <img
+          src="https://img.freepik.com/free-photo/working-from-home-time-management-concept_23-2149065330.jpg?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+          alt="image" />
+        <h3>Şirket Kuruluşu Vergi Dairesi, Oda, SGK, Belediye İşlemleri</h3>
+        <div class="training__card__body">
+          <small>Örneklerle Gerçek Kişi Ve Şirket Kuruluşu Vergi Dairesi, Esnaf ve Ticaret Odası, Belediye SGK
+            İşlemlerinin Tamamı Eksiksi Şekilde Bu Kursta</small>
+          <br>
+          <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="my__job__search__wrapper">
+    <div class="my__job__image">
+      <img
+        src="https://img.freepik.com/free-vector/flat-employment-agency-search-new-employees-hire_88138-802.jpg?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+        alt="image" />
+    </div>
+    <div class="my__job__main">
+      <h3>Hayalindeki Kariyeri Bul! Testi Çöz ve Keşfet!</h3>
+      <small>Bu test ile yeteneklerin ve ilgi alanlarına en uygun mesleği keşfet!
+        Gelecekte seni hangi kariyerin beklediğini öğrenmek için hemen
+        çöz!</small>
+      <button>Teste Başla</button>
+    </div>
+  </section>
+  <section id="our__privileges__wrapper">
+    <div class="privileges__intro">
+      <h1>Asem Academy Ayrıcalıkları</h1>
+      <p>
+        Asem Academy’deki her kurs, öğrencilerimize kaliteli, pratik ve
+        erişilebilir eğitim fırsatları sunar.
+      </p>
+    </div>
+    <div class="privileges__cards">
+      <div class="privileges__area">
+        <div class="privileges__image">
+          <img
+            src="https://cdn-icons-png.freepik.com/256/3750/3750020.png?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+            alt="Uzman Eğitmen Kadrosu" />
+        </div>
+        <div class="privileges__main">
+          <h3>Uzman Eğitmen Kadrosu</h3>
+          <small>Asem Academy'de eğitimler, alanında uzman eğitmenler tarafından
+            sunulur. Her eğitmen, yalnızca konu hakkında derinlemesine bilgiye
+            sahip olmakla kalmaz, aynı zamanda güncel eğitim trendlerini ve
+            pratik uygulamaları da öğrencilerine aktarır.</small>
+        </div>
+      </div>
+
+      <div class="privileges__area">
+        <div class="privileges__image">
+          <img
+            src="https://cdn-icons-png.freepik.com/256/16614/16614253.png?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+            alt="" />
+        </div>
+        <div class="privileges__main">
+          <h3>Esnek Öğrenme Deneyimi</h3>
+          <small>Online eğitimlerimizi istediğiniz zaman, istediğiniz yerden takip
+            edebilirsiniz. Esnek zaman dilimleri sayesinde, eğitimlerinizi
+            yaşam tarzınıza uygun bir şekilde planlayabilirsiniz.</small>
+        </div>
+      </div>
+
+      <div class="privileges__area">
+        <div class="privileges__image">
+          <img
+            src="https://cdn-icons-png.freepik.com/256/10270/10270381.png?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+            alt="" />
+        </div>
+        <div class="privileges__main">
+          <h3>Sertifikalı ve Tanınan Eğitimler</h3>
+          <small>Asem Academy, katıldığınız kursların sonunda alacağınız
+            sertifikalarla kariyerinizi güçlendirmenize yardımcı olur.
+            Verdiğimiz sertifikalar, sektör profesyonelleri tarafından tanınır
+            ve saygı görür.</small>
+        </div>
+      </div>
+      <div class="privileges__area">
+        <div class="privileges__image">
+          <img
+            src="https://cdn-icons-png.freepik.com/256/10502/10502527.png?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+            alt="" />
+        </div>
+        <div class="privileges__main">
+          <h3>Sürekli Güncellenen İçerik</h3>
+          <small>Teknolojinin hızla geliştiği günümüzde, Asem Academy kurs
+            içeriklerini sürekli olarak günceller. Öğrencilerimizin her zaman
+            en güncel bilgiyi almasını sağlamak, en büyük
+            önceliğimizdir.</small>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="form-container">
+    <div class="form-wrapper">
+      <div class="image-area">
+        <img
+          src="https://img.freepik.com/free-photo/close-up-student-online-class_23-2148888815.jpg?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+          alt="Form Görseli" />
+      </div>
+      <div class="form-area">
+        <h2>Size Uygun Kursu Bulalım !</h2>
+        <small>Hangi kursun sizin için en uygun olduğuna karar veremiyor musunuz? Hemen formu doldurun, eğitim
+          danışmanlarımız size ücretsiz destek sağlasın <form>
+        </small>
+        <div class="input__group_area">
+          <div class="input-group">
+            <label for="name">Adınız</label>
+            <input type="text" id="name" placeholder="Adınızı girin" required />
+          </div>
+
+          <div class="input-group">
+            <label for="email">E-posta</label>
+            <input type="email" id="email" placeholder="E-posta adresiniz" required />
+          </div>
+
+          <div class="input-group">
+            <label for="phone">Telefon</label>
+            <input type="tel" id="phone" placeholder="Telefon numaranız" required />
+          </div>
+          <div class="input-group">
+            <label for="phone">İlgilendiğiniz Alan</label>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Seçiniz...</option>
+              <option value="1">Yazılım Geliştirme</option>
+              <option value="2">İşletme</option>
+              <option value="3">Finans ve Muhasebe</option>
+              <option value="4">BT Ve Yazılım</option>
+              <option value="5">Ofiste Verimlilik</option>
+              <option value="6">Kişisel Gelişim</option>
+              <option value="7">Tasarım</option>
+              <option value="8">Pazarlama</option>
+              <option value="9">Sağlık ve Fitness</option>
+              <option value="10">Müzik</option>
+            </select>
+          </div>
+        </div>
+        <button type="submit">Formu Gönder</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <section class="training__list__wrapper">
+    <h2>Yazılım Geliştirme Kategorisindeki En Popüler Kurslar</h2>
+    <div class="training__list">
+      <div class="training__card">
+        <img
+          src="https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+          alt="image" />
+        <h3>Sıfırdan Zirveye Web Tasarım | Komple Frontend Eğitimi</h3>
+        <div class="training__card__body">
+          <small>Sıfırdan Front-end Developer Olun! | HTML, CSS, JavaScript, Bootstrap 5, jQuery, React ve Daha
+            Fazlasını Öğrenin!
+          </small>
+          <br>
+          <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
+        </div>
+      </div>
+      <div class="training__card">
+        <img
+          src="https://img.freepik.com/free-photo/business-concept-with-team-close-up_23-2149151159.jpg?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+          alt="image" />
+        <h3>Sıfırdan İleri Seviye Muhasebe Dersleri</h3>
+        <div class="training__card__body">
+          <small>Hiç bir ön bilgi gerektirmeden muhasebe öğrenin! Üstelik
+            uygulamalı, örnekli ve öğrenme garantili!
+          </small><br>
+          <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
+        </div>
+      </div>
+      <div class="training__card">
+        <img
+          src="https://img.freepik.com/free-photo/html-css-collage-concept-with-person_23-2150061993.jpg?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+          alt="image" />
+        <h3>Sıfırdan Yazılımcı Olma Kursu | 140+ Soru | Bolca Test
+        </h3>
+        <div class="training__card__body">
+          <small>Hiç bir ön bilgi gerektirmeden muhasebe öğrenin! Üstelik uygulamalı, örnekli ve öğrenme garantili!
+          </small><br>
+          <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
+        </div>
+      </div>
+      <div class="training__card">
+        <img
+          src="https://img.freepik.com/free-vector/gradient-top-view-laptop-technology-background_52683-4503.jpg?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+          alt="image" />
+        <h3>Python 2025 : 100 Günlük Programlama Kampı
+        </h3>
+        <div class="training__card__body">
+          <small>Python ve yazılım geliştirme kavramlarını 100 günlük bir kamp ile Twitter Clone vb. güncel uygulamalar
+            yaparak öğrenin
+
+          </small><br>
+          <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="training__list__wrapper" style="background-color: #f8f9fa !important">
+    <h2>İşletme Kategorisindeki En Popüler Kurslar</h2>
+    <div class="training__list">
+      <div class="training__card">
+        <img
+          src="https://img.freepik.com/free-photo/business-concept-with-graphic-holography_23-2149160929.jpg?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+          alt="">
+        <h3>Profesörden Kapsamlı MBA: İşletme, Girişimcilik, Finans...</h3>
+        <div class="training__card__body">
+          <small>En Çok Satan İşletme Kursu* Sıfırdan MBA: Kariyer, start-up, işletme yönetimi, finans ve girişimcilik
+            üzerine her şey!
+          </small>
+          <br>
+          <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
+        </div>
+      </div>
+
+      <div class="training__card">
+        <img
+          src="https://img.freepik.com/free-photo/handshake_1098-17050.jpg?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+          alt="image" />
+        <h3>Finansal Okuryazarlık, Finans Matematiği, Analiz</h3>
+        <div class="training__card__body">
+          <small>Hiç bir ön bilgi gerektirmeden muhasebe öğrenin! Üstelik uygulamalı, örnekli ve öğrenme garantili!
+          </small> <br>
+          <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
+        </div>
+      </div>
+
+      <div class="training__card">
+        <img
+          src="https://img.freepik.com/free-photo/close-up-hand-holding-clipboard_23-2149151173.jpg?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+          alt="image" />
+        <h3>Müşteri İlişkileri Yönetimi: İşletmelere Değer Katmak</h3>
+        <div class="training__card__body">
+          <small>Sıfırdan Sözleşme Hazırlamayı, Ekleri ile Birlikte Sözleşme ve Sözleşme Yönetiminin Ne Olduğunu Öğrenin
+          </small> <br>
+          <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
+        </div>
+      </div>
+
+      <div class="training__card">
+        <img
+          src="https://img.freepik.com/free-photo/workplace-results-professional-report-accounting_1418-61.jpg?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+          alt="image" />
+        <h3>Şirket Değerleme ve Finansal Strateji Geliştirme
+        </h3>
+        <div class="training__card__body">
+          <small>İkinci Kurs Ücretsiz! Şirketlerin değerini hesaplayın, değerini artıracak unsurları tespit edin ve
+            şirketlere yön verin!
+          </small> <br>
+          <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="training__list__wrapper">
+    <h2>Finans ve Muhasebe Kategorisindeki En Popüler Kurslar</h2>
+    <div class="training__list">
+      <div class="training__card">
+        <img
+          src="https://img.freepik.com/free-photo/business-woman-working-office-desktop_23-2148194732.jpg?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+          alt="image" />
+        <h3>Temelden İleri Düzeye Genel Muhasebe</h3>
+        <div class="training__card__body">
+          <small>Alanında yayımlanmış akademik çalışması bulunan SMMM'den yalın anlatım ve soru çözümleriyle genel
+            muhasebe öğrenin
+          </small> <br>
+          <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
+        </div>
+      </div>
+      <div class="training__card">
+        <img
+          src="https://img.freepik.com/free-photo/top-view-desk-with-financial-instruments_23-2148285332.jpg?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+          alt="image" />
+        <h3>Genel Muhasebe Örnek Uygulamalar</h3>
+        <div class="training__card__body">
+          <small>Dönen Varlıklar, Duran Varlıklar, KVYK, Öz Kaynaklar ve Gelir Tablosu tüm hesapların luca ve excel
+            uygulamalı anlatım
+          </small> <br>
+          <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
+        </div>
+      </div>
+      <div class="training__card">
+        <img
+          src="https://img.freepik.com/free-photo/stock-market-exchange-economics-investment-graph_53876-167143.jpg?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+          alt="image" />
+        <h3>Muhasebecilik Mesleğine Giriş: Ön Muhasebe</h3>
+        <div class="training__card__body">
+          <small>Muhasebeciliğe sağlam adımlarla başlayın. Ön muhaseden SMMM'liğe giden yolda yalnız değilsiniz! Hadi
+            Eğitime Sende Katıl Farkı Yarat
+          </small>
+          <br>
+          <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
+        </div>
+      </div>
+      <div class="training__card">
+        <img
+          src="https://img.freepik.com/free-photo/working-from-home-time-management-concept_23-2149065330.jpg?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+          alt="image" />
+        <h3>Şirket Kuruluşu Vergi Dairesi, Oda, SGK, Belediye İşlemleri
+        </h3>
+        <div class="training__card__body">
+          <small>Sıfırdan Sözleşme Hazırlamayı, Ekleri ile Birlikte Sözleşme ve Sözleşme Yönetiminin Ne Olduğunu Öğrenin
+          </small>
+          <br>
+          <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="blog">
+    <div class="blog__main">
+      <h2>Blog Yazılarımız</h2>
+      <small>Finans ve muhasebe kurslarımız, mali yönetim, finansal analiz ve
+        muhasebe süreçlerini en etkili şekilde öğrenmek isteyenler için
+        tasarlandı. Bu kurslar, gelir tablosu, bilanço, nakit akış yönetimi ve
+        vergi düzenlemeleri gibi temel finansal konuların yanı sıra, muhasebe
+        yazılımları ve finansal raporlama tekniklerine kadar geniş bir
+        yelpazeyi kapsar.</small>
+      <button>Tüm Blogları İncele</button>
+    </div>
+    <div class="blog__card__list">
+      <div class="training__card">
+        <img
+          src="https://img.freepik.com/free-photo/time-punctual-timing-duration-action_53876-120652.jpg?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+          alt="image" />
+        <h3>Üniversite Öğrencilerine %25 İndirim</h3>
+        <div class="training__card__body">
+          <small>Asem Academy Üniversite Öğrencilerinin Yanında Öğrenci Belgeni Mail Olarak At 48 Saat İçerisinde
+            Onaylasın İndirim Fırsatını Kaçırma
+          </small>
+          <br>
+          <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
+        </div>
+      </div>
+      <div class="training__card">
+        <img
+          src="https://img.freepik.com/free-photo/low-angle-view-skyscrapers_1359-1136.jpg?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+          alt="image" />
+        <h3>Kurumsal Firmalarda Eğitim</h3>
+        <div class="training__card__body">
+          <small>Günümüz iş dünyasında rekabet her geçen gün artarken, kurumsal firmaların başarısını sürdürebilmesi
+            için çalışanların sürekli gelişimi büyük bir önem taşımaktadır</small>
+          <br>
+          <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
+        </div>
+      </div>
+      <div class="training__card">
+        <img
+          src="https://img.freepik.com/free-photo/close-up-female-hand-counting-with-calculator_1262-3167.jpg?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid"
+          alt="image" />
+        <h3>Muhasebecilik Mesleğine Giriş</h3>
+        <div class="training__card__body">
+          <small>Muhasebe, işletmelerin finansal işlemlerini kaydetmek, sınıflandırmak, analiz etmek ve raporlamak için
+            kullanılan bir sistemdir. Doğru ve düzenli tutulan muhasebe !</small>
+          <br>
+          <button>Bilgi Al <i class="bi bi-arrow-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section contact">
+        <h2>Asem Academy</h2>
+        <p><i class="fas fa-map-marker-alt"></i> İstanbul, Türkiye</p>
+        <p><i class="fas fa-phone"></i> +90 555 555 55 55</p>
+        <p><i class="fas fa-envelope"></i> info@example.com</p>
+        <div class="social">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="footer-section links">
+        <h2>Kategoriler</h2>
+        <ul>
+          <li><a href="#">Yazılım Geliştirme</a></li>
+          <li><a href="#">İşletme</a></li>
+          <li><a href="#">Muhasebe ve Finans</a></li>
+          <li><a href="#">BT ve Yazılım</a></li>
+          <li><a href="#">Ofiste Verimlilik</a></li>
+          <li><a href="#">Kişisel Gelişim</a></li>
+          <li><a href="#">Tasarım</a></li>
+          <li><a href="#">Pazarlama</a></li>
+          <li><a href="#">Sağlık ve Fitness</a></li>
+          <li><a href="#">Müzik</a></li>
+        </ul>
+      </div>
+      <div class="footer-section links">
+        <h2>Menü</h2>
+        <ul>
+          <li><a href="#">Ana Sayfa</a></li>
+          <li><a href="#">Kategoriler</a></li>
+          <li><a href="#">Eğitmen Ol</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Yardım ve Destek</a></li>
+          <li><a href="#">Plan ve Fiyatlandırma</a></li>
+          <li><a href="#">Hakkımızda</a></li>
+          <li><a href="#">İletişim</a></li>
+        </ul>
+      </div>
+      <div class="footer-section newsletter">
+        <h2>Bültene Kayıt Ol</h2>
+        <p>En son haberleri almak için e-posta adresinizi girin.</p>
+        <input type="email" placeholder="E-posta adresiniz">
+        <button>Abone Ol</button>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="../public/app.js"></script>
 </html>

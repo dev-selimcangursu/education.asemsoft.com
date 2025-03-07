@@ -48,46 +48,48 @@ backImageButton.addEventListener("click", function (e) {
 });
 
 ///
-let offerOpen = document.getElementById("offerOpen");
-let academicOpen = document.getElementById("academicOpen");
-let childrenOpen = document.getElementById("childrenOpen");
-let businessOpen = document.getElementById("businessOpen");
+let bestSellerOpen = document.getElementById("bestSellerOpen");
+let softwareOpen = document.getElementById("softwareOpen");
 
-let academicCardArea = document.querySelector(".academic__card__area");
-let trainingCardArea = document.querySelector(".training__card_area");
-let childrenCardArea = document.querySelector(".children__card__area");
-let businessCardArea = document.querySelector(".business__card__area");
+let companyOpen = document.getElementById("companyOpen");
+let financeOpen = document.getElementById("financeOpen");
 
-offerOpen.addEventListener("click", function (e) {
+let softwareCardArea = document.querySelector(".software__card");
+let trainingCardArea = document.querySelector(".best__seller");
+
+let companyCardArea = document.querySelector(".company__card");
+let financeCardArea = document.querySelector(".finance__card");
+
+bestSellerOpen.addEventListener("click", function (e) {
   e.preventDefault();
   trainingCardArea.style.display = "flex";
-  offerOpen.style.color = "purple";
-  academicCardArea.style.display = "none";
-  childrenCardArea.style.display = "none";
-  businessCardArea.style.display = "none";
+  bestSellerOpen.style.color = "#00264f";
+  softwareCardArea.style.display = "none";
+  companyCardArea.style.display = "none";
+  financeCardArea.style.display = "none";
 });
-academicOpen.addEventListener("click", function (e) {
+softwareOpen.addEventListener("click", function (e) {
   e.preventDefault();
   trainingCardArea.style.display = "none";
-  academicCardArea.style.display = "flex";
-  academicOpen.style.color = "purple";
-  childrenCardArea.style.display = "none";
-  businessCardArea.style.display = "none";
+  softwareCardArea.style.display = "flex";
+  softwareOpen.style.color = "#00264f";
+  companyCardArea.style.display = "none";
+  financeCardArea.style.display = "none";
 });
-childrenOpen.addEventListener("click", function (e) {
+companyOpen.addEventListener("click", function (e) {
   e.preventDefault();
   trainingCardArea.style.display = "none";
-  academicCardArea.style.display = "none";
-  childrenCardArea.style.display = "flex";
-  childrenOpen.style.color = "purple";
-  businessCardArea.style.display = "none";
+  softwareCardArea.style.display = "none";
+  companyCardArea.style.display = "flex";
+  companyOpen.style.color = "#00264f";
+  financeCardArea.style.display = "none";
 });
-businessOpen.addEventListener("click", function (e) {
+financeOpen.addEventListener("click", function (e) {
   e.preventDefault();
   trainingCardArea.style.display = "none";
-  academicCardArea.style.display = "none";
-  childrenCardArea.style.display = "none";
-  businessCardArea.style.display = "flex";
-  businessOpen.style.color = "purple";
+  softwareCardArea.style.display = "none";
+  companyCardArea.style.display = "none";
+  financeCardArea.style.display = "flex";
+  financeOpen.style.color = "#00264f";
 });
 ///
