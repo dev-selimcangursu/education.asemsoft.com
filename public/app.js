@@ -1,81 +1,93 @@
 // Sidebar Açma
-document.getElementById("mobile-menu-icon").addEventListener("click", function (e) {
-    e.preventDefault(); 
-    let openSidebar = document.querySelector(".mobile-sidebar"); 
+document
+  .getElementById("mobile-menu-icon")
+  .addEventListener("click", function (e) {
+    e.preventDefault();
+    let openSidebar = document.querySelector(".mobile-sidebar");
     if (openSidebar) {
-      console.log('Sidebar Açıldı');
+      console.log("Sidebar Açıldı");
       openSidebar.classList.toggle("active");
     }
-});
+  });
 
 // Sidebar Kapama
-document.getElementById("close-sidebar-button").addEventListener("click", function (e) {
-e.preventDefault();
+document
+  .getElementById("close-sidebar-button")
+  .addEventListener("click", function (e) {
+    e.preventDefault();
 
-let closeSidebar = document.querySelector(".mobile-sidebar");
-  if (closeSidebar) {
-    closeSidebar.classList.toggle("active");
-  } 
+    let closeSidebar = document.querySelector(".mobile-sidebar");
+    if (closeSidebar) {
+      closeSidebar.classList.toggle("active");
+    }
+  });
+
+// Home Slider
+let currentIndex = 0;
+let backImageButton = document.getElementById("backImageButton");
+let nextImageButton = document.getElementById("nextImageButton");
+let slides = document.querySelector(".slides");
+let totalSlides = document.querySelectorAll(".slider").length;
+
+nextImageButton.addEventListener("click", function (e) {
+  currentIndex++;
+  if (currentIndex >= totalSlides) {
+    currentIndex = 0;
+  }
+
+  slides.style.transform = `translateX(-${currentIndex * 33.33}%)`;
 });
 
-
-// Home Slider 
-let currentIndex = 0;
-let backImageButton = document.getElementById('backImageButton')
-let nextImageButton = document.getElementById('nextImageButton')
-let slides = document.querySelector('.slides')
-let totalSlides =  document.querySelectorAll('.slider').length;
-
-nextImageButton.addEventListener('click',function(e){
-   currentIndex++
-   if(currentIndex >= totalSlides)
-   {
+backImageButton.addEventListener("click", function (e) {
+  currentIndex--;
+  if (totalSlides >= currentIndex) {
     currentIndex = 0;
-   }
-   
-   slides.style.transform = `translateX(-${currentIndex*33.33}%)`
-})
-
-backImageButton.addEventListener('click',function(e){
-   currentIndex--
-   if(totalSlides >= currentIndex)
-   {
-    currentIndex = 0;
-   }
-   
-   slides.style.transform = `translateX(${currentIndex*33.33}%)`
-})
-
-//Trainings Slider
-
-let nextTrainingButton =document.getElementById('nextTrainingButton');
-let backTrainingButton =document.getElementById('backTrainingButton');
-let totalTrainingSlider = document.querySelectorAll('.training__slider').length
-let trainingIndex = 0
-let trainings__slider__area = document.querySelector('.trainings__slider__area');
-
-
-nextTrainingButton.addEventListener('click',function(e){
-  e.preventDefault();
-  trainingIndex++
-
-  if(trainingIndex >= totalTrainingSlider)
-  {
-    trainingIndex=0;
   }
 
-  trainings__slider__area.style.transform = `translateX(-${trainingIndex*14.28}%)`
+  slides.style.transform = `translateX(${currentIndex * 33.33}%)`;
+});
 
-})
+///
+let offerOpen = document.getElementById("offerOpen");
+let academicOpen = document.getElementById("academicOpen");
+let childrenOpen = document.getElementById("childrenOpen");
+let businessOpen = document.getElementById("businessOpen");
 
-backTrainingButton.addEventListener('click',function(e){
+let academicCardArea = document.querySelector(".academic__card__area");
+let trainingCardArea = document.querySelector(".training__card_area");
+let childrenCardArea = document.querySelector(".children__card__area");
+let businessCardArea = document.querySelector(".business__card__area");
+
+offerOpen.addEventListener("click", function (e) {
   e.preventDefault();
-  trainingIndex--
-  if(trainingIndex < 0) 
-  {
-    trainingIndex = totalTrainingSlider - 1; 
-  }
-
-  trainings__slider__area.style.transform = `translateX(-${trainingIndex * 14.28}%)`
-})
-
+  trainingCardArea.style.display = "flex";
+  offerOpen.style.color = "purple";
+  academicCardArea.style.display = "none";
+  childrenCardArea.style.display = "none";
+  businessCardArea.style.display = "none";
+});
+academicOpen.addEventListener("click", function (e) {
+  e.preventDefault();
+  trainingCardArea.style.display = "none";
+  academicCardArea.style.display = "flex";
+  academicOpen.style.color = "purple";
+  childrenCardArea.style.display = "none";
+  businessCardArea.style.display = "none";
+});
+childrenOpen.addEventListener("click", function (e) {
+  e.preventDefault();
+  trainingCardArea.style.display = "none";
+  academicCardArea.style.display = "none";
+  childrenCardArea.style.display = "flex";
+  childrenOpen.style.color = "purple";
+  businessCardArea.style.display = "none";
+});
+businessOpen.addEventListener("click", function (e) {
+  e.preventDefault();
+  trainingCardArea.style.display = "none";
+  academicCardArea.style.display = "none";
+  childrenCardArea.style.display = "none";
+  businessCardArea.style.display = "flex";
+  businessOpen.style.color = "purple";
+});
+///
