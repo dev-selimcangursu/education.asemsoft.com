@@ -517,6 +517,87 @@ img {
 }
 
 
+#our__privileges__wrapper {
+  width: 100%;
+  padding: 40px;
+  background: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.privileges__intro {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.privileges__intro h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.privileges__intro p {
+  font-size: 16px;
+  color: #555;
+  max-width: 800px;
+}
+
+.privileges__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  width: 100%;
+}
+
+.privileges__area {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid rgba(128, 128, 128, 0.1);
+  border-radius: 8px;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  height: auto;
+}
+
+.privileges__area:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  border-color: purple;
+}
+
+.privileges__image img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.privileges__area:hover .privileges__image img {
+  transform: scale(1.1);
+}
+
+.privileges__main h3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.privileges__main small {
+  font-size: 14px;
+  color: #777;
+  line-height: 1.5;
+}
+
+
 
 
 .slider__icon {
@@ -624,6 +705,9 @@ img {
     display: grid;
     grid-template-columns: repeat(1,1fr);  
   }
+  .privileges__area {
+    width: 100%;
+  }
 }
 @media (min-width: 0px) and (max-width: 576px) {
   .header-bottom {
@@ -658,5 +742,8 @@ img {
     width: 100%;
     display: flex;
     flex-direction: column;
+  }
+  .privileges__area {
+    width: 100%;
   }
 }
